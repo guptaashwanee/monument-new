@@ -1,0 +1,38 @@
+.nearBy {
+  h6 {
+    color: #bd4931;
+    font-family: Barlow;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 128.571% */
+    text-transform: capitalize;
+  }
+  .list {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 1px solid #010101;
+    margin: 0.5em 0;
+    padding: 1em;
+    h5,
+    p {
+      color: rgba(1, 1, 1, 0.76);
+      text-shadow: 0px 3.4779365062713623px 17.38968276977539px 0px
+        rgba(0, 0, 0, 0.1);
+      font-family: Noto Serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: 0.539px;
+      text-transform: uppercase;
+      margin: 0;
+      line-height: 27.5px;
+    }
+    p {
+      font-family: Barlow;
+      font-size: 14px;
+      text-transform: lowercase;
+    }
+  }
+}

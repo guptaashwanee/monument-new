@@ -1,0 +1,10 @@
+@import "./common/variables";
+.footer {
+  padding: 2rem;
+  text-align: center;
+  background-color: $primary;
+  color: $white;
+  p {
+    margin: 0;
+  }
+}

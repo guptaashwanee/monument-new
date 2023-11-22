@@ -1,0 +1,38 @@
+.conservation {
+  .row {
+    flex-wrap: nowrap;
+    overflow: scroll;
+    .imageContainer {
+      &:last-child {
+        margin: 0 !important;
+      }
+    }
+  }
+  margin: 1em 0;
+  h6 {
+    color: #bd4931;
+    font-family: Barlow;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 128.571% */
+    text-transform: capitalize;
+  }
+  img {
+    border-radius: 10px;
+    width: 100%;
+    flex-shrink: 0;
+  }
+  p {
+    color: #010101;
+    font-family: Barlow;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  .before-after-slider {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+}

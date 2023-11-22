@@ -1,0 +1,30 @@
+@import "./styles/style.scss";
+@import "./styles/bootstrap.scss";
+@import "./styles/components.scss";
+body {
+  font-family: "Inter", sans-serif;
+  color: rgba($primary, 0.7);
+  background-color: $color-3;
+
+  &.overflow-hidden {
+    /* when primary navigation is visible, the content in the background won't scroll */
+    overflow: hidden;
+  }
+}
+
+a {
+  // color: $color-3;
+  text-decoration: none;
+}
+.imageContainer {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  img {
+    cursor: pointer;
+  }
+}
+.before-after-slider__delimiter {
+  width: 2px !important;
+}

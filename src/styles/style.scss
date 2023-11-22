@@ -1,0 +1,345 @@
+@import "./common/variables"; // colors, fonts etc...
+
+@import "./common/mixins"; // custom mixins
+
+@import "./common/layout"; // responsive grid and media queries
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: $header-height-S;
+  width: 100%;
+  z-index: $header-zindex;
+  @include font-smoothing;
+  // background-color: $primary;
+
+  @include MQ(M) {
+    height: $header-height-M;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  @include MQ(L) {
+    transition: background-color 0.3s;
+    /* Force Hardware Acceleration in WebKit */
+
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    &.is-fixed {
+      /* when the user scrolls down, we hide the header right above the viewport */
+      position: fixed;
+      top: -$header-height-M;
+      background-color: $primary;
+      -webkit-transition: -webkit-transform 0.3s;
+      -moz-transition: -moz-transform 0.3s;
+      transition: transform 0.3s;
+    }
+
+    &.is-visible {
+      /* if the user changes the scrolling direction, we show the header */
+      transform: translate3d(0, 100%, 0);
+    }
+  }
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 65%;
+    height: 65%;
+  }
+  @include MQ(M) {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    right: 3em;
+    @include center(y);
+
+    img {
+      width: 75%;
+      height: 75%;
+    }
+  }
+}
+
+.primary-nav-trigger {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 50px;
+  user-select: none;
+  // background-color: lighten($primary, 5%);
+
+  .menu-icon {
+    /* this span is the central line of the menu icon */
+    display: inline-block;
+    position: absolute;
+    @include center; // mixin inside partials > _mixins.scss
+    width: 22px;
+    height: 2px;
+    background-color: $white;
+    transition: background-color 0.3s;
+
+    /* these are the upper and lower lines in the menu icon */
+    &::before,
+    &:after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-color: $white;
+      right: 0;
+
+      -webkit-transition: -webkit-transform 0.3s, top 0.3s, background-color 0s;
+      -moz-transition: -moz-transform 0.3s, top 0.3s, background-color 0s;
+      transition: transform 0.3s, top 0.3s, background-color 0s;
+    }
+
+    &::before {
+      top: -5px;
+    }
+
+    &::after {
+      top: 5px;
+    }
+
+    &.is-clicked {
+      background-color: rgba($primary, 0);
+
+      &::before,
+      &::after {
+        background-color: rgba($primary, 1);
+      }
+
+      &::before {
+        top: 0;
+        transform: rotate(135deg);
+      }
+
+      &::after {
+        top: 0;
+        transform: rotate(225deg);
+      }
+    }
+  }
+
+  @include MQ(M) {
+    width: 100px;
+    padding-left: 1em;
+    background-color: transparent;
+    height: 30px;
+    line-height: 30px;
+    right: 2.2em;
+    @include center(y);
+
+    .menu-text {
+      display: inline-block;
+    }
+
+    .menu-icon {
+      left: auto;
+      right: 1em;
+      transform: translateX(0) translateY(-50%);
+    }
+  }
+}
+
+.primary-nav {
+  /* by default it's hidden - on top of the viewport */
+  margin-top: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: $white;
+  z-index: $nav-zindex;
+  text-align: center;
+  padding: 0;
+  padding-bottom: $header-height-S;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  overflow: auto;
+  /* this fixes the buggy scrolling on webkit browsers - mobile devices only - when overflow property is applied */
+  -webkit-overflow-scrolling: touch;
+
+  // transform: translateY(-100%);
+  transition-property: transform;
+  transition-duration: 0.4s;
+  .list {
+    display: flex;
+    flex-direction: column;
+    // gap: 10px;
+  }
+  li {
+    @include font-size(22px);
+    font-weight: 300;
+    @include font-smoothing;
+    // margin: 0.2em 0;
+    text-transform: capitalize;
+    list-style: none;
+  }
+
+  .label {
+    margin: 1em;
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.539px;
+    text-transform: uppercase;
+    background: linear-gradient(
+      146deg,
+      #563429 0%,
+      #000 33.33%,
+      #563429 66.67%,
+      #000 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  button {
+    margin-top: 0.5em;
+    border-radius: 10px;
+    background: $primary;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: $white;
+    padding: 0.5em 1em;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.539px;
+  }
+  .monument-list {
+    border: 1px solid $primary;
+    margin: 0;
+    border-radius: 10px;
+    padding: 0.75em;
+    transform-origin: -20px 50%;
+    .col-4 {
+      height: 80px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    img {
+      width: 100%;
+      max-width: 200px;
+    }
+    .title {
+      color: #000;
+
+      font-weight: bolder;
+      font-family: Noto Serif;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.539px;
+      font-size: 0.8rem;
+      padding-bottom: 8px;
+      margin: 0;
+      text-align: left;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .desc {
+      text-align: left;
+      margin: 0;
+      height: 46px;
+      overflow: hidden;
+      color: #000;
+      font-family: Barlow;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.539px;
+    }
+  }
+
+  &.is-visible {
+    transform: translateY(0);
+  }
+
+  @include MQ(M) {
+    padding: 1em 0;
+    overflow: hidden;
+    height: initial;
+    .list {
+      height: 300px;
+      display: flex;
+      overflow: auto;
+      // .monument-list {
+      //   width: 300px;
+      // }
+    }
+  }
+
+  @include MQ(L) {
+    li {
+      @include font-size(30px);
+    }
+
+    .label {
+      @include font-size(16px);
+    }
+  }
+}
+
+.intro {
+  position: relative;
+  height: 100%;
+  //   background: url("../img/background-img.jpg") no-repeat center center;
+  background-size: cover;
+  z-index: $content-zindex;
+  @include font-smoothing;
+
+  h1 {
+    position: absolute;
+    width: 90%;
+    max-width: $L;
+    @include center;
+
+    color: $color-3;
+    @include font-size(20px);
+    font-weight: 300;
+    text-align: center;
+  }
+
+  @include MQ(M) {
+    h1 {
+      @include font-size(30px);
+    }
+  }
+
+  @include MQ(L) {
+    height: 700px;
+  }
+}
+
+.main {
+  min-height: 100vh;
+}
