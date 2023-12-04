@@ -64,13 +64,13 @@ const ScrollSpy = ({ monument }) => {
         target = document.getElementById(hash);
 
       window.setTimeout(() => {
-        console.log(elementOffsetTop(target).top - 160);
+        console.log(elementOffsetTop(target).top - 110);
         if (target) {
           window.scrollTo(0, coords.y);
           // Create a new tween that modifies 'coords'.
           new Tween(coords)
             // Move to top of the clicked element in 700ms.
-            .to({ y: elementOffsetTop(target).top - 160 }, scrollDuration)
+            .to({ y: elementOffsetTop(target).top - 110 }, scrollDuration)
             // Use an easing function to make the animation smooth.
             .easing(Easing.Exponential.Out)
             .onUpdate(function () {
@@ -90,6 +90,7 @@ const ScrollSpy = ({ monument }) => {
   return (
     <>
       <div className="scroll-container" id="details">
+        <h1 className="mainTitle">{monument.title}</h1>
         <div className="px-2">
           <div className="scroll-h">
             {monument.tabDetails?.map((el) => (

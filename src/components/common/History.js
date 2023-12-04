@@ -7,9 +7,9 @@ const History = ({ data, id }) => {
       <div className="row">
         {data.images.map((img, index) => (
           <motion.div
-            initial={{ opacity: 0, y: 50, scale: 0.5, filter: "blur(10px)" }}
+            initial={{ opacity: 0, y: 50, scale: 0.5 }}
             transition={{ duration: 0.25, delay: (index + 1) * 0.25 }}
-            whileInView={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }}
+            whileInView={{ opacity: 1, y: 0, scale: 1 }}
             key={img + index}
             viewport={{ once: true }}
             className="col-12 col-sm-6 col-md-4 p-2 my-1"
@@ -21,9 +21,9 @@ const History = ({ data, id }) => {
       <div>
         {data.desc.map((desc, index) => (
           <motion.p
-            initial={{ opacity: 0, y: 75, filter: "blur(5px)" }}
+            initial={{ opacity: 0, y: 75 }}
             transition={{ duration: 0.25, delay: (index + 1) * 0.1 }}
-            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            whileInView={{ opacity: 1, y: 0 }}
             key={index}
             viewport={{ amount: 0.2, once: true }}
           >

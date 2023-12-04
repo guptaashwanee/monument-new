@@ -49,9 +49,9 @@ const Conservation = ({ data, id }) => {
       {data.desc.map((desc, index) => (
         <motion.p
           margin={200}
-          initial={{ opacity: 0, y: 75, filter: "blur(5px)" }}
+          initial={{ opacity: 0, y: 75 }}
           transition={{ duration: 0.25, delay: (index + 1) * 0.1 }}
-          whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+          whileInView={{ opacity: 1, y: 0 }}
           key={index}
           viewport={{ amount: 0.2, once: true }}
         >

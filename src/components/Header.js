@@ -25,9 +25,7 @@ function useMenuAnimation(isOpen) {
 
     animate(
       ".monument-list",
-      isOpen
-        ? { opacity: 1, scale: 1, filter: "blur(0px)" }
-        : { opacity: 0, scale: 0.3, filter: "blur(20px)" },
+      isOpen ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.3 },
       {
         duration: 0.2,
         delay: isOpen ? staggerMenuItems : 0,

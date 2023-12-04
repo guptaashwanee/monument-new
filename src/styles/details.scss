@@ -3,17 +3,17 @@
 @import "./details/conservation.scss";
 @import "./details/keyElements.scss";
 .tabDetails {
+  padding-top: 200px !important;
   .scroll-container {
     width: 100%;
     overflow: scroll;
     position: sticky;
     top: 0;
-    // padding-top: 50px;
     // padding-left: 1.5rem;
     // padding-right: 1.5rem;
-    padding: 1rem;
+    padding: 0.75rem;
     z-index: 997;
-    // background-color: #fff;
+    background-color: #fff;
     .background {
       position: absolute;
       top: 0;
@@ -55,7 +55,7 @@
       position: relative;
       min-height: 48px;
       flex-shrink: 0;
-      padding: 12px 16px;
+      padding: 5px 16px 10px;
       overflow: hidden;
       white-space: normal;
       text-align: center;
@@ -85,6 +85,26 @@
 }
 .tabDetails {
   // margin-top: calc(-100% + 120px);
+  h1 {
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.539px;
+    text-transform: uppercase;
+    background: linear-gradient(
+      146deg,
+      #563429 0%,
+      #000 33.33%,
+      #563429 66.67%,
+      #000 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 0;
+  }
   .bottom {
     width: 100%;
     // background: linear-gradient(

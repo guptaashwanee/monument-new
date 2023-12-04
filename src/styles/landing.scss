@@ -1,23 +1,41 @@
 @import "./common/layout";
 .landing {
   width: 100%;
-  height: 100vh;
-  position: relative;
+  height: 100%;
+  // position: relative;
   // padding: 2rem;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  // opacity: 0;
+  z-index: 998;
+  // pointer-events: none;
+  .timeHr {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: transparent;
+    z-index: 999;
+    scroll-snap-stop: always;
+    margin: 0;
+    scroll-snap-align: center;
+  }
   .bottom {
     width: 100%;
-    background: linear-gradient(
-      180deg,
-      rgba(237, 227, 213, 0) 0%,
-      #e9dfd2 100%
-    );
+    // background: linear-gradient(
+    //   180deg,
+    //   rgba(237, 227, 213, 0) 0%,
+    //   #e9dfd2 100%
+    // );
     position: absolute;
     bottom: 0;
     right: 0;
     padding: 1em;
+    margin-bottom: -120px;
     a {
       display: block;
       text-align: center;
@@ -35,8 +53,10 @@
       letter-spacing: 0.539px;
       text-transform: uppercase;
       color: #301a12;
+      margin-bottom: 1rem;
       text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
         1px 1px 0 #fff;
+
       // background: linear-gradient(
       //   146deg,
       //   #563429 0%,
@@ -55,10 +75,13 @@
       font-family: Noto Serif;
       font-size: 20px;
       font-style: normal;
+      position: relative;
       font-weight: 600;
       line-height: normal;
       letter-spacing: 1px;
       text-transform: uppercase;
+      opacity: 0;
+      bottom: -30px;
     }
     p {
       color: #010101;
@@ -67,8 +90,11 @@
       font-family: Barlow;
       font-size: 14px;
       font-style: normal;
+      position: relative;
       font-weight: 400;
       line-height: 18px;
+      opacity: 0;
+      bottom: -30px;
     }
   }
   @include MQ(L) {
@@ -88,4 +114,29 @@
       padding-bottom: 3em;
     }
   }
+}
+
+.ml1 {
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
+}
+
+.ml1 .text-wrapper {
+  position: relative;
+  // display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml1 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml1 .word {
+  display: inline-block;
 }
