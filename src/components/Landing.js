@@ -4,7 +4,7 @@ import { useRef, useEffect, useLayoutEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
-// ScrollTrigger.normalizeScroll(true);
+ScrollTrigger.normalizeScroll({ allowNestedScroll: true });
 const Landing = ({ monument }) => {
   const main = useRef();
   const swipe = useRef(0);
@@ -141,6 +141,7 @@ const Landing = ({ monument }) => {
             backgroundRepeat: "noPepeat",
           }}
         ></div>
+        <div className="overlay"></div>
         <div>
           <div className="bottom">
             <h1 className="ml1 mainTitle">
