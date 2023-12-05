@@ -3,9 +3,8 @@ import { useLocation } from "react-router-dom";
 import { useRef, useEffect, useLayoutEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { motion } from "framer-motion";
 gsap.registerPlugin(ScrollTrigger);
-ScrollTrigger.normalizeScroll(true);
+// ScrollTrigger.normalizeScroll(true);
 const Landing = ({ monument }) => {
   const main = useRef();
   const swipe = useRef(0);
@@ -82,7 +81,7 @@ const Landing = ({ monument }) => {
           start: "180px",
           end: `+=10`,
           scrub: true,
-          markers: true,
+          // markers: true,
           // on,
         },
       });
@@ -93,7 +92,7 @@ const Landing = ({ monument }) => {
           start: "190px",
           end: `+=5`,
           scrub: true,
-          markers: true,
+          // markers: true,
           // on,
         },
       });
@@ -106,7 +105,7 @@ const Landing = ({ monument }) => {
           start: "50px",
           end: `+=30`,
           scrub: true,
-          markers: true,
+          // markers: true,
         },
       });
       gsap.to(".description", {
@@ -117,7 +116,7 @@ const Landing = ({ monument }) => {
           start: "50px",
           end: `+=30`,
           scrub: true,
-          markers: true,
+          // markers: true,
         },
       });
     }, main); // <- Scope!
@@ -131,7 +130,7 @@ const Landing = ({ monument }) => {
         <div
           className="bg"
           style={{
-            position: "absolute",
+            position: "fixed",
             top: 0,
             right: 0,
             width: "100%",
@@ -142,7 +141,6 @@ const Landing = ({ monument }) => {
             backgroundRepeat: "noPepeat",
           }}
         ></div>
-        <hr className="timeHr" />
         <div>
           <div className="bottom">
             <h1 className="ml1 mainTitle">
