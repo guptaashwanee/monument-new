@@ -135,7 +135,7 @@ export const monuments = [
     id: 2,
     title: "Sunder Burj",
     time: "16th century",
-    preview: "/assets/monuments/sunderburj/sunderburj_hero.jpeg",
+    preview: "/assets/monuments/sunderburj/sunderburj_hero.webp",
     url: "/sunderburj",
     iframe:
       "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2348.3023697717085!2d77.2441841824983!3d28.596159334613034!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce30046cf4a35%3A0x94d5134ce745fba5!2sSunderwala%20Burj!5e0!3m2!1sen!2sin!4v1690828477026!5m2!1sen!2sin",
@@ -144,9 +144,9 @@ export const monuments = [
         id: "history",
         title: "History",
         images: [
-          "/assets/monuments/sunderburj/history/Site selection-Graphics-GT Road,Lakkarwala Burj painting scan0007.jpg",
-          "/assets/monuments/sunderburj/history/sundarwala Burj.jpg",
-          "/assets/monuments/sunderburj/history/Sundarwla Burj - before conservation - Southwest (1930-31).jpg",
+          "/assets/monuments/sunderburj/sunderburj_history_01.webp",
+          "/assets/monuments/sunderburj/sunderburj_history_02.webp",
+          "/assets/monuments/sunderburj/sunderburj_history_03.webp",
         ],
         desc: [
           "This early 16th century Mughal tomb originally stood, with Sunderwala Mahal and the Lotus Pond, in a 700-metre square-shaped garden enclosure, now part of Sunder Nursery.",
@@ -156,9 +156,9 @@ export const monuments = [
         id: "architecture",
         title: "Architecture",
         images: [
-          "/assets/monuments/sunderburj/architecture/2021 (1).jpg",
-          "/assets/monuments/sunderburj/architecture/20220816 (11).jpg",
-          "/assets/monuments/sunderburj/architecture/DJI_0009-2.jpg",
+          "/assets/monuments/sunderburj/sunderburj_architecture_01.webp",
+          "/assets/monuments/sunderburj/sunderburj_architecture_02.webp",
+          "/assets/monuments/sunderburj/sunderburj_architecture_03.webp",
         ],
         desc: [
           "The domed tomb  measures 14’ 6” square. The internal walls are profusely adorned with incised plaster. In design, the building resembles the Lakkarwala Burj and has a similar band of Quranic inscriptions encircling the inner walls above the doorways. Originally there would have been a grave in the centre of the hall, but now there is no trace of any grave here.",
@@ -168,10 +168,10 @@ export const monuments = [
         id: "conservation",
         title: "Conservation",
         images: [
-          "/assets/monuments/sunderburj/conservation/2011 (9).JPG",
-          "/assets/monuments/sunderburj/conservation/2011 (10).JPG",
-          "/assets/monuments/sunderburj/conservation/DSC_0139a aa.JPG",
-          "/assets/monuments/sunderburj/conservation/DSC_0320.jpeg",
+          "/assets/monuments/sunderburj/sunderburj_conservation_01.webp",
+          "/assets/monuments/sunderburj/sunderburj_conservation_02.webp",
+          "/assets/monuments/sunderburj/sunderburj_conservation_03.webp",
+          "/assets/monuments/sunderburj/sunderburj_conservation_04.webp",
         ],
         desc: [
           "Conservation was carried out between 2010 and 2012, by the Aga Khan Trust for Culture with a grant from the US Ambassador’s Fund for Cultural Preservation.",
@@ -179,8 +179,28 @@ export const monuments = [
         ],
         beforeAfter: [
           [
-            "/assets/monuments/sunderburj/before-after/1.JPG",
-            "/assets/monuments/sunderburj/before-after/1a.JPG",
+            "/assets/monuments/sunderburj/sunderburj_before_01.webp",
+            "/assets/monuments/sunderburj/sunderburj_after_01.webp",
+          ],
+          [
+            "/assets/monuments/sunderburj/sunderburj_before_02.webp",
+            "/assets/monuments/sunderburj/sunderburj_after_02.webp",
+          ],
+          [
+            "/assets/monuments/sunderburj/sunderburj_before_03.webp",
+            "/assets/monuments/sunderburj/sunderburj_after_03.webp",
+          ],
+          [
+            "/assets/monuments/sunderburj/sunderburj_before_04.webp",
+            "/assets/monuments/sunderburj/sunderburj_after_04.webp",
+          ],
+          [
+            "/assets/monuments/sunderburj/sunderburj_before_05.webp",
+            "/assets/monuments/sunderburj/sunderburj_after_05.webp",
+          ],
+          [
+            "/assets/monuments/sunderburj/sunderburj_before_06.webp",
+            "/assets/monuments/sunderburj/sunderburj_after_06.webp",
           ],
         ],
       },
@@ -245,7 +265,7 @@ export const monuments = [
     id: 3,
     title: "Sunderwala Mahal",
     time: "16th Century",
-    preview: "/assets/monuments/sunderwalamahal/sunderwalamahal_hero.jpeg",
+    preview: "/assets/monuments/sunderwalamahal/sunderwalamahal_hero.webp",
     url: "/sunderwalamahal",
     iframe:
       "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2348.3023697717085!2d77.2441841824983!3d28.596159334613034!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce30046cf4a35%3A0x94d5134ce745fba5!2sSunderwala%20Burj!5e0!3m2!1sen!2sin!4v1690828477026!5m2!1sen!2sin",
@@ -254,8 +274,8 @@ export const monuments = [
         id: "history",
         title: "History",
         images: [
-          "/assets/monuments/sunderwalamahal/sunderwalamahal_history_01.jpeg",
-          "/assets/monuments/sunderwalamahal/sunderwalamahal_history_02.jpeg",
+          "/assets/monuments/sunderwalamahal/sunderwalamahal_history_01.webp",
+          "/assets/monuments/sunderwalamahal/sunderwalamahal_history_02.webp",
         ],
         desc: [
           "At the heart of the structure is a vaulted underground chamber surrounded by eight more chambers that represent the eight spaces of Quranic paradise. This hasht-bihisht style is a recurrent feature in tombs built during the Mughal era. The central chamber of this tomb used to have a cenotaph, but this has since disintegrated.",
@@ -265,9 +285,9 @@ export const monuments = [
         id: "architecture",
         title: "Architecture",
         images: [
-          "/assets/monuments/sunderwalamahal/sunderwalamahal_architecture_01.jpeg",
-          "/assets/monuments/sunderwalamahal/sunderwalamahal_architecture_02.jpeg",
-          "/assets/monuments/sunderwalamahal/sunderwalamahal_architecture_03.jpeg",
+          "/assets/monuments/sunderwalamahal/sunderwalamahal_architecture_01.webp",
+          "/assets/monuments/sunderwalamahal/sunderwalamahal_architecture_02.webp",
+          "/assets/monuments/sunderwalamahal/sunderwalamahal_architecture_03.webp",
         ],
         desc: [
           "Along with Sunder Burj, this monument originally stood within an enclosure measuring 225 x186 metres approximately and is entered through a lofty gateway. In the centre of the enclosure is a ruined platform where there was, it seems, once a grave. The rubble-built tomb is rectangular, with the corners cut off, and in its centre is a vaulted underground chamber. Around this chamber is a verandah with five arches on each of its four sides. To the south, where there is an entrance to the vaulted chamber, are two staircases leading up to the roof. The centre of the roof is occupied by a dais some 2.88 sq m, which seems to have supported the false tomb.",
@@ -277,7 +297,7 @@ export const monuments = [
         id: "conservation",
         title: "Conservation",
         images: [
-          "/assets/monuments/sunderwalamahal/sunderwalamahal_conservation_01.jpeg",
+          "/assets/monuments/sunderwalamahal/sunderwalamahal_conservation_01.webp",
         ],
         desc: [
           "The first step was detailed documentation of the structure, including architectural drawings, condition assessment, archival research, and photo documentation. This was included in the conservation proposal prepared for all Sunder Nursery monuments in March 2008, on the basis of which approval was given by the Archaeological Survey of India.",
@@ -285,12 +305,12 @@ export const monuments = [
         ],
         beforeAfter: [
           [
-            "/assets/monuments/sunderwalamahal/sunderwalamahal_before_01.jpeg",
-            "/assets/monuments/sunderwalamahal/sunderwalamahal_after_01.jpeg",
+            "/assets/monuments/sunderwalamahal/sunderwalamahal_before_01.webp",
+            "/assets/monuments/sunderwalamahal/sunderwalamahal_after_01.webp",
           ],
           [
-            "/assets/monuments/sunderwalamahal/sunderwalamahal_before_02.jpeg",
-            "/assets/monuments/sunderwalamahal/sunderwalamahal_after_02.jpeg",
+            "/assets/monuments/sunderwalamahal/sunderwalamahal_before_02.webp",
+            "/assets/monuments/sunderwalamahal/sunderwalamahal_after_02.webp",
           ],
         ],
       },
@@ -358,7 +378,7 @@ export const monuments = [
     id: 4,
     title: "lakkarwala burj",
     time: "16th Century",
-    preview: "/assets/monuments/lakkarwalaburj/lakkarwalaburj_hero.jpeg",
+    preview: "/assets/monuments/lakkarwalaburj/lakkarwalaburj_hero.webp",
     url: "/lakkarwalaburj",
     iframe:
       "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2618.2742025222506!2d77.2438292212507!3d28.597939516407678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce31e8f862fd1%3A0x431eb61efe6d51c4!2sLakkar%20Wala%20Burj!5e0!3m2!1sen!2sin!4v1691142314540!5m2!1sen!2sin",
@@ -367,8 +387,8 @@ export const monuments = [
         id: "history",
         title: "History",
         images: [
-          "/assets/monuments/lakkarwalaburj/lakkarwalaburj_history_01.jpeg",
-          "/assets/monuments/lakkarwalaburj/lakkarwalaburj_history_02.jpeg",
+          "/assets/monuments/lakkarwalaburj/lakkarwalaburj_history_01.webp",
+          "/assets/monuments/lakkarwalaburj/lakkarwalaburj_history_02.webp",
         ],
         desc: [
           "The tomb was originally set in a walled enclosure, part of which now falls in the adjoining Delhi Public School compound. However, the historic well feeding the enclosed garden and remnants of enclosure walls to the east of the tomb still survive.",
@@ -379,9 +399,9 @@ export const monuments = [
         id: "architecture",
         title: "Architecture",
         images: [
-          "/assets/monuments/lakkarwalaburj/lakkarwalaburj_architecture_01.jpeg",
-          "/assets/monuments/lakkarwalaburj/lakkarwalaburj_architecture_02.jpeg",
-          "/assets/monuments/lakkarwalaburj/lakkarwalaburj_architecture_03.jpeg",
+          "/assets/monuments/lakkarwalaburj/lakkarwalaburj_architecture_01.webp",
+          "/assets/monuments/lakkarwalaburj/lakkarwalaburj_architecture_02.webp",
+          "/assets/monuments/lakkarwalaburj/lakkarwalaburj_architecture_03.webp",
         ],
         desc: [
           "Built atop a high arcaded plinth, this lofty domed mausoleum is entered through arches in each of its four facades. A vaulted chamber was built abutting the western archway, in the Mughal era itself, possibly to serve as a residence for a caretaker. The monument is profusely ornamented with exquisite incised plasterwork on both the exterior and interior surfaces; polychrome geometric patterns, muqarnas, and calligraphic verses embellish the interiors of the tomb.",
@@ -391,7 +411,7 @@ export const monuments = [
         id: "conservation",
         title: "Conservation",
         images: [
-          "/assets/monuments/lakkarwalaburj/lakkarwalaburj_conservation_01.jpeg",
+          "/assets/monuments/lakkarwalaburj/lakkarwalaburj_conservation_01.webp",
         ],
         desc: [
           "Lakkarwala Burj required years of painstaking conservation to restore missing elements such as the geometric incised plaster patterns and the parapet kanguras. The monument, with arched openings in each of its four sides has heavily ornamented interiors with Quranic verses in incised plasterwork encircling the room. Conservation works on this nationally protected monument included repair and rebuilding the western façade, restoring the decorative plasterwork in the muqarnas and ornamentation, the lattice screens had to be reinstalled and the flooring, both internal and external, needed to be rebuilt.",
@@ -403,12 +423,12 @@ export const monuments = [
         ],
         beforeAfter: [
           [
-            "/assets/monuments/lakkarwalaburj/lakkarwalaburj_before_01.jpeg",
-            "/assets/monuments/lakkarwalaburj/lakkarwalaburj_after_01.jpeg",
+            "/assets/monuments/lakkarwalaburj/lakkarwalaburj_before_01.webp",
+            "/assets/monuments/lakkarwalaburj/lakkarwalaburj_after_01.webp",
           ],
           [
-            "/assets/monuments/lakkarwalaburj/lakkarwalaburj_before_02.jpeg",
-            "/assets/monuments/lakkarwalaburj/lakkarwalaburj_after_02.jpeg",
+            "/assets/monuments/lakkarwalaburj/lakkarwalaburj_before_02.webp",
+            "/assets/monuments/lakkarwalaburj/lakkarwalaburj_after_02.webp",
           ],
         ],
       },
@@ -469,7 +489,7 @@ export const monuments = [
     id: 5,
     title: "Mirza Muzaffar Hussain’s Mausoleum",
     time: "CE 1603-1604",
-    preview: "/assets/monuments/mirzamuzaffar/mirzamuzaffar_hero.jpeg",
+    preview: "/assets/monuments/mirzamuzaffar/mirzamuzaffar_hero.webp",
     url: "/mirzamuzaffar",
     iframe:
       "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3503.13293669784!2d77.2467816!3d28.5957885!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce31b3f393963%3A0x3a6deb001241243f!2sMirza%20Muzaffar%20Hussain%E2%80%99s%20Tomb!5e0!3m2!1sen!2sin!4v1691142713321!5m2!1sen!2sin",
@@ -478,8 +498,8 @@ export const monuments = [
         id: "history",
         title: "History",
         images: [
-          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_history_01.jpeg",
-          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_history_02.jpeg",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_history_01.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_history_02.webp",
         ],
         desc: [
           "Built in CE 1603, and popularly known as the Bada Batashewala Mahal, this is the mausoleum of Mirza Muzaffar Hussain, who was Akbar’s son-in-law. It is  a square building which stands on a platform with five half-domed arched entrance bays on each side. This tomb was identified as Mirza Muzaffar Hussain’s due to the calligraphic inscription of his name on the walls.",
@@ -490,8 +510,8 @@ export const monuments = [
         id: "architecture",
         title: "Architecture",
         images: [
-          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_architecture_01.jpeg",
-          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_architecture_02.jpeg",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_architecture_01.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_architecture_02.webp",
         ],
         desc: [
           "In appearance, Mirza Muzaffar Hussain’s mausoleum resembles the Sundarwala Mahal situated in Sunder Nursery. This square structure stands on a raised platform and measures 96 feet on each side, with five arches on each side. Although it is known that the building is a mausoleum, but the actual grave has disappeared. It was originally surrounded by a walled enclosure, of which traces can still be seen.",
@@ -501,8 +521,8 @@ export const monuments = [
         id: "conservation",
         title: "Conservation",
         images: [
-          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_01.jpeg",
-          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_02.jpeg",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_01.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_02.webp",
         ],
         desc: [
           "The mausoleum, which was almost lost to neglect and decay, has been renewed and preserved for generations to come through a restoration project that resulted in its inclusion as part of a UNESCO World Heritage site. In the 1950s, the ownership of this complex was given to the Bharat Scouts & Guides to serve as a camping ground. This led, in 1989, to the construction of 150 structures. Enclosure walls were demolished, disfiguring the landscape and the historic character of the site.",
@@ -518,12 +538,12 @@ export const monuments = [
         ],
         beforeAfter: [
           [
-            "/assets/monuments/mirzamuzaffar/mirzamuzaffar_before_01.jpeg",
-            "/assets/monuments/mirzamuzaffar/mirzamuzaffar_after_01.jpeg",
+            "/assets/monuments/mirzamuzaffar/mirzamuzaffar_before_01.webp",
+            "/assets/monuments/mirzamuzaffar/mirzamuzaffar_after_01.webp",
           ],
           [
-            "/assets/monuments/mirzamuzaffar/mirzamuzaffar_before_02.jpeg",
-            "/assets/monuments/mirzamuzaffar/mirzamuzaffar_after_02.jpeg",
+            "/assets/monuments/mirzamuzaffar/mirzamuzaffar_before_02.webp",
+            "/assets/monuments/mirzamuzaffar/mirzamuzaffar_after_02.webp",
           ],
         ],
       },
@@ -604,7 +624,7 @@ export const monuments = [
     id: 6,
     title: "Chhota Batashewala",
     time: "16th Century",
-    preview: "/assets/monuments/chotabatashewala/chotabatashewala_hero.jpeg",
+    preview: "/assets/monuments/chotabatashewala/chotabatashewala_hero.webp",
     url: "/chotabatashewala",
     iframe:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.126920717141!2d77.250564!3d28.595969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce31a5a92a23d%3A0x5f0a166b19622add!2sBatashewala%20Complex!5e0!3m2!1sen!2sin!4v1691143799460!5m2!1sen!2sin",
@@ -622,8 +642,8 @@ export const monuments = [
         id: "architecture",
         title: "Architecture",
         images: [
-          "/assets/monuments/chotabatashewala/chotabatashewala_architecture_01.jpeg",
-          "/assets/monuments/chotabatashewala/chotabatashewala_architecture_02.jpeg",
+          "/assets/monuments/chotabatashewala/chotabatashewala_architecture_01.webp",
+          "/assets/monuments/chotabatashewala/chotabatashewala_architecture_02.webp",
         ],
         desc: [
           "Built in random rubble masonry, the building stands on a platform just under a metre high, and consists of a central octagonal chamber with a surrounding arcade containing an arched opening on each side of the octagon. The central apartment has four doorways, three of which were enclosed by stone lattice screens, while the fourth, on the south side, provides an entrance to the mausoleum. The domed ceiling of the central chamber, as well as the walls inside, are ornamented by floral and geometrical patterns intermingled with Quranic inscriptions in incised plaster. No trace of a grave is found within.",
@@ -640,8 +660,8 @@ export const monuments = [
         ],
         beforeAfter: [
           [
-            "/assets/monuments/chotabatashewala/chotabatashewala_before_01.jpeg",
-            "/assets/monuments/chotabatashewala/chotabatashewala_after_01.jpeg",
+            "/assets/monuments/chotabatashewala/chotabatashewala_before_01.webp",
+            "/assets/monuments/chotabatashewala/chotabatashewala_after_01.webp",
           ],
         ],
       },
@@ -694,7 +714,7 @@ export const monuments = [
     id: 7,
     title: "Mughal Mausoleum",
     time: "16th Century",
-    preview: "/assets/monuments/mughalmausoleum/mughalmausoleum_hero.jpeg",
+    preview: "/assets/monuments/mughalmausoleum/mughalmausoleum_hero.webp",
     url: "/mughalmausoleum",
     iframe:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.126920717141!2d77.250564!3d28.595969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce31a5a92a23d%3A0x5f0a166b19622add!2sBatashewala%20Complex!5e0!3m2!1sen!2sin!4v1691143799460!5m2!1sen!2sin",
@@ -703,7 +723,7 @@ export const monuments = [
         id: "history",
         title: "History",
         images: [
-          "/assets/monuments/mughalmausoleum/mughalmausoleum_history_01.jpeg",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_history_01.webp",
         ],
         desc: [
           "Profusely ornamented, this garden tomb is believed to have been built for a high-ranking noble of the Mughal court.",
@@ -713,8 +733,8 @@ export const monuments = [
         id: "architecture",
         title: "Architecture",
         images: [
-          "/assets/monuments/mughalmausoleum/mughalmausoleum_architecture_01.jpeg",
-          "/assets/monuments/mughalmausoleum/mughalmausoleum_architecture_02.jpeg",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_architecture_01.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_architecture_02.webp",
         ],
         desc: [
           "It stands on a platform within a recently reconstructed walled enclosure. The incised-plaster ornamentation on its façade and interior still retains the original polychrome in bright hues of blue, green, and red. The structure features traditional squinch arches and walls with calligraphic inscriptions of Quranic verses. The roof parapets are adorned with minarets and decorative motifs. Its principal entrance was from the south, where a grand flight of steps still survives.",
@@ -725,9 +745,9 @@ export const monuments = [
         id: "conservation",
         title: "Conservation",
         images: [
-          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_01.jpeg",
-          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_02.jpeg",
-          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_03.jpeg",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_01.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_02.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_03.webp",
         ],
         desc: [
           "The structure had suffered from inappropriate repairs in the 20th century. Careful interventions were required to restore the architectural intentions of the Mughal builders, including rebuilding the lower platform and replacing the cement plaster, which had beenused here extensively, with lime plaster. This also included restoring the intricate plasterwork on the parapet, interiors, and façade. The sandstone lattice screens openings have been restored using Mirza Muzaffar Hussain’s tomb as a model.",
@@ -736,16 +756,16 @@ export const monuments = [
         ],
         beforeAfter: [
           [
-            "/assets/monuments/mughalmausoleum/mughalmausoleum_before_01.jpeg",
-            "/assets/monuments/mughalmausoleum/mughalmausoleum_after_01.jpeg",
+            "/assets/monuments/mughalmausoleum/mughalmausoleum_before_01.webp",
+            "/assets/monuments/mughalmausoleum/mughalmausoleum_after_01.webp",
           ],
           [
-            "/assets/monuments/mughalmausoleum/mughalmausoleum_before_02.jpeg",
-            "/assets/monuments/mughalmausoleum/mughalmausoleum_after_02.jpeg",
+            "/assets/monuments/mughalmausoleum/mughalmausoleum_before_02.webp",
+            "/assets/monuments/mughalmausoleum/mughalmausoleum_after_02.webp",
           ],
           [
-            "/assets/monuments/mughalmausoleum/mughalmausoleum_before_03.jpeg",
-            "/assets/monuments/mughalmausoleum/mughalmausoleum_after_03.jpeg",
+            "/assets/monuments/mughalmausoleum/mughalmausoleum_before_03.webp",
+            "/assets/monuments/mughalmausoleum/mughalmausoleum_after_03.webp",
           ],
         ],
       },

@@ -4,7 +4,6 @@ import { useRef, useEffect, useLayoutEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
-ScrollTrigger.normalizeScroll({ allowNestedScroll: true });
 const Landing = ({ monument }) => {
   const main = useRef();
   const swipe = useRef(0);
@@ -142,15 +141,15 @@ const Landing = ({ monument }) => {
           }}
         ></div>
         <div className="overlay"></div>
-        <div>
-          <div className="bottom">
-            <h1 className="ml1 mainTitle">
-              <span className="text-wrapper">
-                <span className="letters">{monument.title}</span>
-              </span>
-            </h1>
-            {/* <h1 className="mainTitle">{monument.title}</h1> */}
-            {/* <motion.h5
+        {/* <div> */}
+        <div className="bottom">
+          <h1 className="ml1 mainTitle">
+            <span className="text-wrapper">
+              <span className="letters">{monument.title}</span>
+            </span>
+          </h1>
+          {/* <h1 className="mainTitle">{monument.title}</h1> */}
+          {/* <motion.h5
               key={monument.id + "time"}
               initial={{ opacity: 0, y: 75 }}
               transition={{ duration: 0.25, delay: 0.25 }}
@@ -168,9 +167,9 @@ const Landing = ({ monument }) => {
             >
               {monument.desc?.substring(0, 200)}
             </motion.p> */}
-            <h5 className="timeLine">{monument.time}</h5>
-            <p className="description">{monument.desc}</p>
-            {/* <a href={`#details`} className="viewMore">
+          <h5 className="timeLine">{monument.time}</h5>
+          <p className="description">{monument.desc}</p>
+          {/* <a href={`#details`} className="viewMore">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="27"
@@ -194,8 +193,8 @@ const Landing = ({ monument }) => {
                 />
               </svg>
             </a> */}
-          </div>
         </div>
+        {/* </div> */}
       </div>
     </div>
   );
