@@ -814,6 +814,704 @@ export const monuments = [
     ],
     desc: "This domed early Mughal-era tomb stands on an elevated stone masonry plinth that gives it a fort-like appearance. The decorated tomb, which is visible from afar, provides spectacular views of, and from, Humayun’s mausoleum.",
   },
+  {
+    id: 8,
+    title: "SABZ BURJ",
+    time: "CE 1533",
+    preview: "/assets/monuments/sabzburj/sabzburj_hero.webp",
+    url: "/sabzburj",
+    iframe:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.2198937091257!2d77.24105087549935!3d28.59317937568629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce31ce163e95b%3A0x1647ce2764664122!2sSabz%20Burj!5e0!3m2!1sen!2sin!4v1707986891247!5m2!1sen!2sin",
+    tabDetails: [
+      {
+        id: "history",
+        title: "History",
+        images: [
+          "/assets/monuments/sabzburj/sabzburj_history_01.webp",
+          "/assets/monuments/sabzburj/sabzburj_history_02.webp",
+          "/assets/monuments/sabzburj/sabzburj_history_03.webp",
+        ],
+        desc: [
+          "Though the domed mausoleum bears no date, the architectural style can be dated to the 1530’s - harmonious geometric proportions expressed in perfect symmetry and pishtaqs framing the arched topped by a dome with the façade ornamented with tile work - is Timurid and similar octagonal structures are seen across Central Asia.",
+        ],
+      },
+      {
+        id: "architecture",
+        title: "Architecture",
+        images: [
+          "/assets/monuments/sabzburj/sabzburj_architecture_01.webp",
+          "/assets/monuments/sabzburj/sabzburj_architecture_02.webp",
+          "/assets/monuments/sabzburj/sabzburj_architecture_03.webp",
+          "/assets/monuments/sabzburj/sabzburj_architecture_04.webp",
+          "/assets/monuments/sabzburj/sabzburj_architecture_05.webp",
+        ],
+        desc: [
+          "The central chamber of Sabz Burj is connected through four axial passages to the lofty pishtaqs in the main outer faces, which alternate with smaller half octagonal arched niches in the narrower faces. As with Humayun’s Tomb, Sabz Burj has a double dome with the outer dome and the tall drum covered with tiles. The intricate ornamentation on the outer façade is unique and shows great variety in the application of geometric and interlacing patterns in red, white and black in incised plasterwork, highlighted in several fields with tiles.",
+          "The square interior is divided by a cornice into a comparatively low-wall zone with shallow niches and a transition zone of four high arched windows and four squinches defining the corners. Originally the entire interior wall surface would have been painted, off which only the painted ceiling has survived – making it the most significant feature of Sabz Burj. Here gold and lapiz have been profusely used in delicate patterns and in a dynamic manner with the quality of the paintings being confident and skilful.",
+        ],
+      },
+      {
+        id: "conservation",
+        title: "Conservation",
+        images: [
+          "/assets/monuments/sabzburj/sabzburj_conservation_01.webp",
+          "/assets/monuments/sabzburj/sabzburj_conservation_02.webp",
+          "/assets/monuments/sabzburj/sabzburj_conservation_03.webp",
+          "/assets/monuments/sabzburj/sabzburj_conservation_04.webp",
+          "/assets/monuments/sabzburj/sabzburj_conservation_05.webp",
+          "/assets/monuments/sabzburj/sabzburj_conservation_06.webp",
+          "/assets/monuments/sabzburj/sabzburj_conservation_07.webp",
+          "/assets/monuments/sabzburj/sabzburj_conservation_08.webp",
+          "/assets/monuments/sabzburj/sabzburj_conservation_09.webp",
+          "/assets/monuments/sabzburj/sabzburj_conservation_10.webp",
+        ],
+        desc: [
+          "In the 20th century, Sabz Burj was used as a police station. Such misuse coupled with the use of cement led to significant deterioration, resulting in the structure’s ruinous condition in the 21st century. Since 2017, an exhaustive conservation effort has been undertaken here. Master craftsmen – tile makers, masons, stone-carvers have worked towards restoring the original splendour where evidence of patterns and material had survived. Removal of 20th century cement from the dome and walls and its replacement with lime plaster will protect the structure from further decay and deterioration.",
+          "The significance of the prominently located Sabz Burj is defined by its intricate ornamentation – tilework, medallions, incised plasterwork, stone carving and the painted ceiling. Unfortunately, the painted interior wall surfaces have all been lost but for the rest, the conservation effort aimed at restoring the missing elements and in turn the cultural significance of this 16th century mausoleum.",
+          "Through archival research, scientific documentation and condition analysis, a conservation plan was prepared and approved at the onset. The conservation effort relied on using traditional materials and craftsmanship.",
+        ],
+        beforeAfter: [
+          // [
+          //   "/assets/monuments/sabzburj/sabzburj_before_01.webp",
+          //   "/assets/monuments/sabzburj/sabzburj_after_01.webp",
+          // ],
+          // [
+          //   "/assets/monuments/sabzburj/sabzburj_before_02.webp",
+          //   "/assets/monuments/sabzburj/sabzburj_after_02.webp",
+          // ],
+          // [
+          //   "/assets/monuments/sabzburj/sabzburj_before_03.webp",
+          //   "/assets/monuments/sabzburj/sabzburj_after_03.webp",
+          // ],
+          // [
+          //   "/assets/monuments/sabzburj/sabzburj_before_04.webp",
+          //   "/assets/monuments/sabzburj/sabzburj_after_04.webp",
+          // ],
+          // [
+          //   "/assets/monuments/sabzburj/sabzburj_before_05.webp",
+          //   "/assets/monuments/sabzburj/sabzburj_after_05.webp",
+          // ],
+          // [
+          //   "/assets/monuments/sabzburj/sabzburj_before_06.webp",
+          //   "/assets/monuments/sabzburj/sabzburj_after_06.webp",
+          // ],
+        ],
+      },
+      {
+        id: "key-elements",
+        title: "Key Elements",
+        details: [
+          {
+            title: "Dome and Drum",
+            desc: [
+              "The original Mughal era tiles had mostly been lost when in 1980, new tiles were fixed on the dome. The use of cement mortar at this time, unfortunately led to major water ingress. The present conservation effort included removal of the 1980’s tiles and the restoration of tiles exactly matching the 16th century tiles in physical and chemical attributes and fixed with lime mortar. Missing tiles on the drum or neck of the dome were also restored.",
+            ],
+            images: [
+              "/assets/monuments/sabzburj/sabzburj_keyelement_dome_01.webp",
+            ],
+          },
+          {
+            title: "Lotus Finial",
+            desc: [
+              "Atop the dome is an inverted lotus that would have held a stone finial. On the ‘petals’ were discovered remnants of green glazed tiles - which are significant as they give the monument its name (Sabz= green). The missing green tiles were carefully restored.",
+              "Traces of green tiles were found on the lotus petals atop the dome. These of the same colour as the green on the neck of the dome – together giving the monument its popular name of ‘Sabz Burj’ or ‘Green dome.’",
+            ],
+            images: [
+              "/assets/monuments/sabzburj/sabzburj_keyelement_lotus_01.webp",
+              "/assets/monuments/sabzburj/sabzburj_keyelement_lotus_02.webp",
+            ],
+          },
+          {
+            title: "Tile Work",
+            desc: [
+              "Striking glazed tiles on the lotus finial, dome and the drum or neck of the dome – inspired by Timurid buildings of Central Asia, are the defining architectural element of the Sabz Burj. With much of tile work of the dome lost in the 20th century, tiles were fixed here by the Archaeological Survey of India in the 1980s. Original Mughal-era tiles had survived on the neck – in simple, repetitive geometric patterns formed using four different colours of glazed tiles.",
+              "With the dome leaking, the 1980’s tiles could also be replaced with tiles of the exact physical and chemical composition of the original Mughal tiles – handmade at the workshops established at Humayun’s Tomb.",
+            ],
+            images: [],
+          },
+          {
+            title: "Façade",
+            desc: [
+              "The facades of the eight-sided tomb are profusely decorated with intricate incised plasterwork, in geometric and floral patterns. Finished with natural colours and red polychromy, much of these had severely deteriorated, with missing portions plastered in plain cement plaster. Enough of the patterns however survived to enable an accurate restoration.",
+            ],
+            images: [
+              "/assets/monuments/sabzburj/sabzburj_keyelement_facade_01.webp",
+            ],
+          },
+          {
+            title: "Gold Painted Ceiling",
+            desc: [
+              "The discovery of the painted ceiling beneath 20th century paint and cement layers is most significant, though water seepage has led to irreversible loss of painting from the outer periphery or edge of the ceiling.",
+              "The 36 sq.m domed ceiling has five prominent colours, lapiz blue forms the background for the flower design, the red created with red lead is often seen in Mughal painting while yellow earth or peeli maati is also used. Lavish use of pure gold that has survived in specks was applied over a beige undercoat. Black is used prominently for the bold and confident lines.",
+              "Owing to this discovery, the ceiling is now known to be the earliest surviving painted ceiling for any Timurid/ Mughal building. Intricate floral patterns and motifs, in real lapis lazuli and real gold define the breath-taking ceiling.",
+              "From under layers of cement render, conservators painstakingly revealed a painted ceiling with intricate floral patterns and motifs, created in real gold and lapis lazuli. Many patterns now seen here were later used in Mughal miniature paintings. On removal of the cement and paint layers, a microscopic documentation was carried out. With this ceiling now understood to be of immense value, no restoration of missing portions was carried out.",
+              "To prevent any further water seepage causing further deterioration to the painted ceiling, the dome was re-tiled.",
+            ],
+            images: [
+              "/assets/monuments/sabzburj/sabzburj_keyelement_ceiling_01.webp",
+            ],
+          },
+          {
+            title: "Ornamental Patterns",
+            desc: [
+              "Profuse ornamentation here includes medallions with Quranic inscriptions, intricate tile inlay in plaster, stone lattice screens and incised plasterwork. This significant ornamentation defines the significance of the Sabz Burj and required painstaking work to restore over four years.",
+            ],
+            images: [
+              "/assets/monuments/sabzburj/sabzburj_keyelement_ornament_01.webp",
+            ],
+          },
+          {
+            title: "Jaalis",
+            desc: [
+              "Sandstone jaalis in the arches above the doorways were an important element giving this space its character and allowed filtered light into the space. These seem to have been removed, possibly in the early 20th century and later replaced with unsightly metal grills.",
+              "Stone-carvers have used traditional hand tools and craft techniques to carve these large lattice screens now restored to the monument.",
+            ],
+            images: [
+              "/assets/monuments/sabzburj/sabzburj_keyelement_jaalis_01.webp",
+            ],
+          },
+        ],
+      },
+    ],
+    nearBy: [
+      {
+        title: "Nila Gumbad",
+        url: "/nila-gumbad",
+        distance: "20 mts",
+      },
+      {
+        title: "Barber's Tomb",
+        url: "/barbers-tomb",
+        distance: "10 mts",
+      },
+      {
+        title: "Sabz Burj",
+        url: "/sabz-burj",
+        distance: "20 mts",
+      },
+      {
+        title: "Sunder Burj",
+        url: "/sunderburj",
+        distance: "20 mts",
+      },
+    ],
+    desc: "Built in the 1530’s, Sabz Burj is one the earliest Mughal era buildings in India. The structure stands at a prominent location on the historic Grand Trunk Road and within the Humayun’s Tomb - Nizamuddin Basti Heritage zone. Built as a mausoleum, Sabz Burj would also have stood within an enclosed garden. The dome was re-clad with tiles in the 1980’s and since then Sabz Burj had suffered from water seepage, loss of incised plaster patterns and tiles from the drum, as well as severe structural deterioration. Conservation works here have revealed intricate, complex ornamentation and even the use of gold, indicating the stature of the person buried here.",
+  },
+  {
+    id: 9,
+    title: "RAHIM’S MAUSOLEUM",
+    time: "CE 1598",
+    preview: "/assets/monuments/rahimmausoleum/rahimmausoleum_hero.webp",
+    url: "/rahimmausoleum",
+    iframe:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.390401411748!2d77.248014!3d28.588062700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3044377c4b9%3A0xdca679b53ebe6634!2sAbdul%20Rahim%20Khan-i-Khanan%20Tomb!5e0!3m2!1sen!2sin!4v1707987752033!5m2!1sen!2sin",
+    tabDetails: [
+      {
+        id: "history",
+        title: "History",
+        images: [
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_history_01.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_history_02.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_history_03.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_history_04.webp",
+        ],
+        desc: [
+          "Abdur Rahim Khan-I-Khanan was the son of Bairam Khan. Upon his birth, Maulana Fariduddin Dehlavi, the learned associate of Bairam Khan composed the line (of chronogram) yielding the year of his birth: “The pearl from the river of good fortune has come forth”.",
+          "Raised in the pluralistic environment of Emperor Akbar’s court, Abdur Rahim developed a refined taste and sensibility for poetry in different languages. He eventually turned out to be a versatile poet, prolific writer, a consummate scholar, and an able administrator.",
+          "It were his Hindavi verses which gained popularity among the elites and populace since their composition in 16th century and gave him a legendary status. Khan-i-Khanan is also credited with the construction of beautiful buildings, canals, tanks, pleasure gardens in Agra, Lahore, Delhi, and Burhanpur. The most important monument constructed by him was this building which he constructed as his wife’s tomb in Nizamuddin, which later also served as his tomb and a source of inspiration for the architecture of Taj Mahal at Agra.",
+        ],
+      },
+      {
+        id: "architecture",
+        title: "Architecture",
+        images: [
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_architecture_01.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_architecture_02.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_architecture_03.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_architecture_04.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_architecture_05.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_architecture_06.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_architecture_07.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_architecture_08.webp",
+        ],
+        desc: [
+          "This monumental mausoleum, inspired by Humayun’s Tomb, was built by Abdur Rahim Khan-i-Khanan for his wife – Mah Banu, making it the first monumental mausoleum built for a lady in Mughal times. The mausoleum, built on the river’s banks, was also built in proximity to Dargah of Hazrat Nizamuddin Auliya and to emperor Humayun’s mausoleum. Thus, Rahim’s mausoleum stands within a significant archaeological zone.",
+          "Rahim is known to have been a great builder of gardens, serai’s, water distribution systems, hammams. Despite the historical, architectural, and archaeological significance of the structure, it was found in a ruinous condition with a risk of collapse.",
+          "From the center of the southern river facing façade, a vaulted passage leads to the crypt chamber, with a circumambulatory path around the grave platform. Above this stands the lofty tomb chamber roofed by a double dome. The lofty sandstone terrace is adorned by water tanks and channels. Stone medallions of numerous designs, incised plaster patterns - including the sacred Swastika, floral motifs on the wall surfaces adorn the structure.",
+        ],
+      },
+      {
+        id: "conservation",
+        title: "Conservation",
+        images: [
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_conservation_01.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_conservation_02.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_conservation_03.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_conservation_04.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_conservation_05.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_conservation_06.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_conservation_07.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_conservation_08.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_conservation_09.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_conservation_10.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_conservation_11.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_conservation_12.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_conservation_13.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_conservation_14.webp",
+          "/assets/monuments/rahimmausoleum/rahimmausoleum_conservation_15.webp",
+        ],
+        desc: [
+          "Though built on a grand scale, with quartzite stone masonry walls clad with sandstone and marble, Rahim’s mausoleum had some structurally weak elements such as the four lofty central arches. Possibly, by the 18th century, stone cladding fell away in parts leading to even standing stone – such as on the dome quarried from here. Uptil the late 20th century there is evidence of stone from here – from both walls and floors – taken away for use elsewhere.",
+        ],
+        beforeAfter: [
+          [
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_before_01.webp",
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_after_01.webp",
+          ],
+          [
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_before_02.webp",
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_after_02.webp",
+          ],
+          [
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_before_03.webp",
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_after_03.webp",
+          ],
+          [
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_before_04.webp",
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_after_04.webp",
+          ],
+          [
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_before_05.webp",
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_after_05.webp",
+          ],
+          [
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_before_06.webp",
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_after_06.webp",
+          ],
+          [
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_before_07.webp",
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_after_07.webp",
+          ],
+          [
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_before_08.webp",
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_after_08.webp",
+          ],
+          [
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_before_09.webp",
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_after_09.webp",
+          ],
+          [
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_before_10.webp",
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_after_10.webp",
+          ],
+          [
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_before_11.webp",
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_after_11.webp",
+          ],
+          [
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_before_12.webp",
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_after_12.webp",
+          ],
+          [
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_before_13.webp",
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_after_13.webp",
+          ],
+          [
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_before_14.webp",
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_after_14.webp",
+          ],
+          [
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_before_15.webp",
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_after_15.webp",
+          ],
+          [
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_before_16.webp",
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_after_16.webp",
+          ],
+          [
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_before_17.webp",
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_after_17.webp",
+          ],
+          [
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_before_18.webp",
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_after_18.webp",
+          ],
+          [
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_before_19.webp",
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_after_19.webp",
+          ],
+          [
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_before_20.webp",
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_after_20.webp",
+          ],
+          [
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_before_21.webp",
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_after_21.webp",
+          ],
+          [
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_before_22.webp",
+            "/assets/monuments/rahimmausoleum/rahimmausoleum_after_22.webp",
+          ],
+        ],
+      },
+      {
+        id: "key-elements",
+        title: "Key Elements",
+        details: [
+          {
+            title: "Dome",
+            desc: [
+              "The tomb is crowned with a double dome, where the outer dome would have originally been clad with marble serving as a protective layer for the underlying masonry.",
+              "Following a detailed assessment and studies by structural engineer and ASI-AKTC committee on their cause, conservation works were undertaken which included re-plastering. A symbolic addition of marble has been restored to the dome as an indication of the original builder’s intention.",
+            ],
+            images: [],
+          },
+          {
+            title: "Canopies",
+            desc: [
+              "The four corners of the roof have large octagonal canopies that stand on a raised platform. Layers of cement plaster/concrete disfigured their original profiles and significant decorative elements such as the red and white kangura pattern on the neck of the dome.",
+              "The cement layers have been carefully removed and replaced with traditional lime mortar and missing decorative elements restored where evidence was found.",
+              "In the centre of the four sides stand low vaulted dalans, and over each of the four dalans, there would have stood two canopies. Only one survived on the northern face with stone elements for the missing canopies found at the site. These have been used to reconstruct four of the seven missing canopies.",
+            ],
+            images: [],
+          },
+          {
+            title: "Main Façade",
+            desc: [
+              "A combination of poor construction, neglect and vandalism in the 20th century seems to have led to significant deterioration and large portions of stone going missing from Rahim’s Tomb.",
+              "Conservation measures have combined traditional knowledge with scientific analysis to undertake the restoration of the façade.",
+            ],
+            images: [],
+          },
+          {
+            title: "Principal Chamber of the mausoleum",
+            desc: [
+              "To ensure structural stability of standing portions the stone was required to be restored to the base of the dome and to the façade where evidence of design had survived. Anastylosis of two canopies was possible with stone elements found at site. The sandstone terrace together with the sandstone parapet has now been restored, as has building’s plinth to its original levels and material – thus stabilizing the exposed foundations.",
+              "The principal chamber on the first floor, which is built exactly over the burial chamber on the ground floor, would have had two cenotaphs - one for Rahim and another for his wife, for whom the mausoleum was constructed. Careful cleaning of this chamber revealed intricate patterns and where patterns were disfigured by cement-surkhi plaster, they have been carefully restored.",
+              "To render dignity to the burial space and the personage buried here a simple cenotaph has been constructed here in lieu of the missing cenotaphs.",
+            ],
+            images: [],
+          },
+          {
+            title: "Ancillary Chambers",
+            desc: [
+              "On the four corners of the principal tomb chamber stand the domed ancillary chambers, which are profusely decorated using incised plasterwork. Layers of plain cement-surkhi plaster repairs have been carried out in these chambers disfiguring original elements.",
+              "Cement-based repairs have been carefully replaced with traditional lime mortar and wherever original decorative patterns could be deciphered, they have been restored.",
+            ],
+            images: [],
+          },
+          {
+            title: "Upper Plinth",
+            desc: [
+              "The vast terrace at this level would have originally overlooked the river on the south, with fountains and water tanks overlooking the gardens. A large, foliated tank in the north still exists with smaller rectangular and octagonal tanks on the other sides.",
+              "With the evidence of stone thickness and existing patterns still available, red sandstone flooring has been restored to the terrace, and a sandstone parapet provided all around as an important safety measure.",
+            ],
+            images: [],
+          },
+          {
+            title: "Structural Stabilization",
+            desc: [
+              "The center of the southern arcade leads to the domed grave chamber, supported on columns with a circumambulatory passage around it. Major structural cracks and heavy settlement of the foundations were indicative of a threat of collapse.",
+              "Structural analysis was followed by emergency stabilisation of the structure using traditional quartzite masonry repairs carried out in a systematic manner to support the structure and prevent further damage.",
+              "The corners of the lower arcade also had to be strengthened structurally with the use of Delhi quartzite stone pillars as per original details.",
+            ],
+            images: [],
+          },
+          {
+            title: "Lower Arcade",
+            desc: [
+              "To ensure structural stability of standing portions the stone was required to be restored to the base of the dome and to the façade where evidence of design had survived. Anastylosis of two canopies was possible with stone elements found at site. The sandstone terrace together with the sandstone parapet has now been restored, as has building’s plinth to its original levels and material – thus stabilizing the exposed foundations.",
+              "Three deep chambers corresponding to the location of the crypts and the corner chambers of the lower arcade are decorated with incised plaster work, with all the chambers decorated with unique patterns. Similarly, the spandrels of the arches are decorated with circular medallions, each unique in their design and include inscriptions, geometric and floral patterns and even peacocks.",
+              "Modern cement-surkhi based repairs in the 21st century had disfigured the historic character of the structure. Traditional lime base repairs were carried out by master craftsmen restoring decorative plasterwork where evidence of original patterns could be found.",
+              "The ground level arcade would have sat on a raised chabutra which was replaced with a sandstone plinth protection at a much lower level. Explorations in the gardens revealed the outer edge of this platform and being a significant interface between the garden and the mausoleum it has been restored using traditional Delhi quartzite stone.",
+            ],
+            images: [],
+          },
+        ],
+      },
+    ],
+    nearBy: [
+      {
+        title: "Nila Gumbad",
+        url: "/nila-gumbad",
+        distance: "20 mts",
+      },
+      {
+        title: "Barber's Tomb",
+        url: "/barbers-tomb",
+        distance: "10 mts",
+      },
+      {
+        title: "Sabz Burj",
+        url: "/sabz-burj",
+        distance: "20 mts",
+      },
+      {
+        title: "Sunder Burj",
+        url: "/sunderburj",
+        distance: "20 mts",
+      },
+    ],
+    desc: "Standing only a few hundred yards south of Humayun’s Tomb, this monumental tomb was built by Abdur Rahim Khan-I-Khanan for his wife – MahBanu. Built in CE 1598 this would be the first monumental tomb built for a lady in Mughal times and, on his death, Rahim was also buried here alongside his wife. It also stands within the sacred landscape associated with the Dargah of Hazrat Nizamuddin Auliya, the revered 14th century Sufi saint. Today, with over 60 important monuments standing here, this is a significant archaeological zone and a buffer zone of the Humayun’s Tomb World Heritage Site.",
+  },
+  {
+    id: 10,
+    title: "Isa Khan’s Garden-tomb",
+    time: "CE 1547-48",
+    preview:
+      "/assets/monuments/ishakhangardentomb/ishakhangardentomb_hero.webp",
+    url: "/ishakhangardentomb",
+    iframe:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.24956652711!2d77.246214!3d28.592288999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce31ca9cdc8ef%3A0xf1ad57820b3f6d48!2sIsa%20Khan's%20Tomb%2C%20Delhi!5e0!3m2!1sen!2sin!4v1707989829846!5m2!1sen!2sin",
+    tabDetails: [
+      {
+        id: "history",
+        title: "History",
+        images: [
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_history_01.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_history_02.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_history_03.webp",
+        ],
+        desc: [
+          "“This tomb, which is an asylum of paradise, was built during the reign of Islam Shah, son of Sher Shah, may God perpetuate his kingdom and sovereignty, in the year 954 AH.” -	Inscription translation from Zafar Hassan",
+          "Built almost five centuries ago, the tomb enclosure was built for Isa Khan Niyazi who was a noble of influence at the court of Sher Shah Sur, and his the younger son Islam Shah. It was largely due to Isa Khan that Islam Shah succeeded in holding the throne of Delhi against his elder brother Adil Khan.",
+          "In 1920s, there were villagers residing within the garden enclosures of Isa Khan’s Tomb and Bu Halima’s Tomb, which were brought out and relocated.",
+        ],
+      },
+      {
+        id: "architecture",
+        title: "Architecture",
+        images: [
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_01.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_02.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_03.webp",
+        ],
+        desc: [
+          "The Isa Khan’s Tomb is the culmination of two centuries of an architectural style of tomb building in the city of Delhi. Resembling more closely to the early 15th - century tomb of Mubarak Shah Sayyid but significantly more ornamental with the use of dressed sandstone for the façade of the mosque, elaborate finials, large scale use of ceramic tiles on the façade of the tomb, mosque and on the canopies and the highly ornamental plasterwork.",
+        ],
+      },
+      {
+        id: "conservation",
+        title: "Conservation",
+        images: [
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_conservation_01.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_conservation_02.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_conservation_03.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_conservation_04.webp",
+        ],
+        desc: [
+          "Conservation works here focus on restoring the ornamentation where evidence of original details is known. The discovery that the outer garden was originally 4’ below the levels of the garden that surrounds the tomb required 125,000 cubic feet of earth to be manually removed to restore historic levels. This revealed several hundred terracotta objects, in addition to architectural elements, as well as the arcade of the enclosure wall, which is now once again visible as intended. In order to ensure no damage to underlying archaeology occurs this work was carried out manually.",
+          "Conservation works in the Isa Khan's garden-tomb enclosure have included urgent repairs to the collapsed gateway re-using stone elements discovered buried in the garden; structural repairs to the garden retaining wall that required dismantling portions of it; restoration of the 7.5-foot finial on the dome of the tomb; major structural repairs to the Mosque that stands within the enclosure; de-silting of a well discovered within the garden, amongst others. Stone finials to the canopies as well as the tiles that covered the canopy will be restored.",
+          "The ornamental ceiling of the dome required extensive careful restoration and with the final application of lime punning as well as cleaning of stone surfaces with water and soft brushes the quality of the interior space has improved dramatically. Decorative medallions in incised plaster works on the external façade as well as on the veranda ceilings have been carefully conserved with missing portions restored following original patterns and designs.",
+          "During the conservation works, original remains of the turquoise blue glazed tiles were discovered around the stone finial of the central dome which was covered underneath the new plaster layers. After removing the added layers, original glazed tile work of the finial have been restored using matching glazed turquoise blue tiles prepared on site.",
+        ],
+        beforeAfter: [
+          [
+            "/assets/monuments/ishakhangardentomb/ishakhangardentomb_before_01.webp",
+            "/assets/monuments/ishakhangardentomb/ishakhangardentomb_after_01.webp",
+          ],
+          [
+            "/assets/monuments/ishakhangardentomb/ishakhangardentomb_before_02.webp",
+            "/assets/monuments/ishakhangardentomb/ishakhangardentomb_after_02.webp",
+          ],
+          [
+            "/assets/monuments/ishakhangardentomb/ishakhangardentomb_before_03.webp",
+            "/assets/monuments/ishakhangardentomb/ishakhangardentomb_after_03.webp",
+          ],
+          [
+            "/assets/monuments/ishakhangardentomb/ishakhangardentomb_before_04.webp",
+            "/assets/monuments/ishakhangardentomb/ishakhangardentomb_after_04.webp",
+          ],
+          [
+            "/assets/monuments/ishakhangardentomb/ishakhangardentomb_before_05.webp",
+            "/assets/monuments/ishakhangardentomb/ishakhangardentomb_after_05.webp",
+          ],
+          [
+            "/assets/monuments/ishakhangardentomb/ishakhangardentomb_before_06.webp",
+            "/assets/monuments/ishakhangardentomb/ishakhangardentomb_after_06.webp",
+          ],
+        ],
+      },
+      {
+        id: "key-elements",
+        title: "Key Elements",
+        details: [
+          {
+            title: "ORNAMENTAL CEILING",
+            desc: [
+              "The highly ornamental ceiling of Isa Khan’s Tomb had suffered severe decay due to neglect and water ingress. Also with the dome white-washed and cement plastered, it was too dark for the ceiling to be visible. Careful restoration of the ornamentation has been carried out by master craftsmen and the cement plaster replaced with lime plaster thereby significantly enhancing the historic character of the tomb chamber.",
+            ],
+            images: [],
+          },
+          {
+            title: "TERRACE",
+            desc: [
+              "The finial was unearthed during the garden excavation. After removing the added layers, the original glazed tile work of the finial have been restored using matching glazed turquoise blue tiles prepared on site.",
+            ],
+            images: [],
+          },
+          {
+            title: "GRAND FINIAL",
+            desc: [
+              "Fragments of the finial, visible in archival photographs were discovered during the earth removal and used to carve out new elements carefully matching the original. Fixing this 3000 kilo finial was a major challenge for the master craftsmen.",
+            ],
+            images: [],
+          },
+          {
+            title: "FAÇADE",
+            desc: [
+              "Ornate medallions of incised plasterwork and ceramic tile inlays decorate the spandrels of all arches. This significant structure stands out due to the liberal use of ornamentation such as plaster work, glazed tiles, marble finials and stone lattice screens. Stunning incised plaster work is visible on the ceiling and its arches.",
+            ],
+            images: [],
+          },
+        ],
+      },
+    ],
+    nearBy: [
+      {
+        title: "Nila Gumbad",
+        url: "/nila-gumbad",
+        distance: "20 mts",
+      },
+      {
+        title: "Barber's Tomb",
+        url: "/barbers-tomb",
+        distance: "10 mts",
+      },
+      {
+        title: "Sabz Burj",
+        url: "/sabz-burj",
+        distance: "20 mts",
+      },
+      {
+        title: "Sunder Burj",
+        url: "/sunderburj",
+        distance: "20 mts",
+      },
+    ],
+    desc: "Predating the Humayun’s Tomb by only two decades, this complex survives in its entirety—enclosure walls, gateway, mosque and even the original well. The octagonal tomb is of an architectural style used by the Sayyid and Lodi dynasties for royal mausoleums. It stands prominently on the entrance to the Humayun’s Tomb complex.",
+  },
+  {
+    id: 11,
+    title: "Nila Gumbad",
+    time: "CE 1624-25",
+    preview: "/assets/monuments/nilagumbad/nilagumbad_hero.webp",
+    url: "/nilagumbad",
+    iframe:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.2610604983324!2d77.2531303!3d28.5919441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce30ffaf53fc1%3A0x20496ab0eabae149!2sNeela%20Gumbad!5e0!3m2!1sen!2sin!4v1707991385407!5m2!1sen!2sin",
+    tabDetails: [
+      {
+        id: "history",
+        title: "History",
+        images: [
+          "/assets/monuments/nilagumbad/nilagumbad_history_01.webp",
+          "/assets/monuments/nilagumbad/nilagumbad_history_02.webp",
+          "/assets/monuments/nilagumbad/nilagumbad_history_03.webp",
+        ],
+        desc: [
+          "Built on a rocky river island in the mid-19th century, the eastern half of Nila Gumbad’s garden was taken over to lay railway lines. The principal southern gateway to the garden enclosure seems to have been demolished for the construction of the railway station. In the late 1970s or early 1980s, the northern arcade of the garden enclosure were partially demolished to lay a trunk sewerage line and the area so levelled later came to be used as a road, thus separating Nila Gumbad and Humayun’s Tomb. A densely populated squatter settlement grew around Nila Gumbad.",
+          "Historically significant amongst the many Mughal monuments in Delhi, Nila Gumbad was declared a World Heritage Monument by UNESCO as part of the extended Humayun’s Tomb World Heritage Site in 2017. The site is best visited at dawn or dusk, when the dome can be seen glittering in the sun.",
+        ],
+      },
+      {
+        id: "architecture",
+        title: "Architecture",
+        images: [
+          "/assets/monuments/nilagumbad/nilagumbad_architecture_01.webp",
+          "/assets/monuments/nilagumbad/nilagumbad_architecture_02.webp",
+          "/assets/monuments/nilagumbad/nilagumbad_architecture_03.webp",
+        ],
+        desc: [
+          "The tomb stands on a platform 108’ square and 5’ high. The building itself is octagonal externally, with four narrow and four wider faces, and is square within. The wider faces are broken by pointed arched recesses enclosing a doorway, while slightly above is placed a small arched window. The drum on which the dome stands is encircled with a series of low arches. The dome exteriorly, as well as the facades, was originally profusely ornamented with enamelled tiles, portions of which are still preserved. The ceiling of the dome, and the walls inside, are decorated with painted and incised plaster. The dome construction is interesting as it is unusual in this period for the dome, as viewed from the interior, to rise through the high necking. In such cases there is usually a separate inner and outer dome with a space left between them. Here there is only the one dome shell.",
+        ],
+      },
+      {
+        id: "conservation",
+        title: "Conservation",
+        images: [
+          "/assets/monuments/nilagumbad/nilagumbad_conservation_01.webp",
+          "/assets/monuments/nilagumbad/nilagumbad_conservation_02.webp",
+          "/assets/monuments/nilagumbad/nilagumbad_conservation_03.webp",
+          "/assets/monuments/nilagumbad/nilagumbad_conservation_04.webp",
+        ],
+        desc: [
+          "The conservation of Nila Gumbad has required not only the removal of cement layers and replacing them with traditional lime mortar but also restoring over 20,000 tiles missing from the dome. The layers of lime-wash and paint were removed, and sandstone screens restored to the grooves found in the arched openings in the neck of the dome.",
+          "The collapsed portions of the surviving northern arcade are to be reconstructed as is the stone ramp discovered here. The ramp likely was meant to carry building material from the river for the construction of Humayun’s Tomb. To restore the setting of both Humayun’s Tomb as well as that of Nila Gumbad it is also planned to lower levels of the garden along the eastern wall of Humayun’s Tomb.",
+          "Almost four decades later it is a matter of great satisfaction that the integrity of the World heritage site has been restored. Construction of the alternate road that re-routes traffic behind the Nila Gumbad was completed in mid-2014. Landscape development of Nila Gumbad by M Shaheer Associates was commenced by levelling of land requiring significant increase in earth levels in the immediate setting of the mausoleum.",
+          "The arcade originally serving as a dam for the river water had suffered damages and was subsequently covered up. This original arcade carefully conserved. The restoration of the enclosed Garden around the monument and the connection with the Humayun’s tomb Garden have enhanced the historic character of the complex, and also integrated it into the Humayun’s Tomb World Heritage Site.",
+        ],
+        beforeAfter: [
+          [
+            "/assets/monuments/nilagumbad/nilagumbad_before_01.webp",
+            "/assets/monuments/nilagumbad/nilagumbad_after_01.webp",
+          ],
+          [
+            "/assets/monuments/nilagumbad/nilagumbad_before_02.webp",
+            "/assets/monuments/nilagumbad/nilagumbad_after_02.webp",
+          ],
+          [
+            "/assets/monuments/nilagumbad/nilagumbad_before_03.webp",
+            "/assets/monuments/nilagumbad/nilagumbad_after_03.webp",
+          ],
+          [
+            "/assets/monuments/nilagumbad/nilagumbad_before_04.webp",
+            "/assets/monuments/nilagumbad/nilagumbad_after_04.webp",
+          ],
+          [
+            "/assets/monuments/nilagumbad/nilagumbad_before_05.webp",
+            "/assets/monuments/nilagumbad/nilagumbad_after_05.webp",
+          ],
+          [
+            "/assets/monuments/nilagumbad/nilagumbad_before_06.webp",
+            "/assets/monuments/nilagumbad/nilagumbad_after_06.webp",
+          ],
+        ],
+      },
+      {
+        id: "key-elements",
+        title: "Key Elements",
+        details: [
+          {
+            title: "Façade",
+            desc: [
+              "Glazed tiles on the drum and external north wall are the most significant architectural elements of this monument.",
+            ],
+            images: [],
+          },
+          {
+            title: "Ceiling",
+            desc: [
+              "The interior wall and ceiling surfaces are decorated with incised plaster work and enamel paintings. The ceiling of the dome is decorated with colourful inscised plasterwork.",
+            ],
+            images: [],
+          },
+        ],
+      },
+    ],
+    nearBy: [
+      // {
+      //   title: "Nila Gumbad",
+      //   url: "/nila-gumbad",
+      //   distance: "20 mts",
+      // },
+      // {
+      //   title: "Barber's Tomb",
+      //   url: "/barbers-tomb",
+      //   distance: "10 mts",
+      // },
+      // {
+      //   title: "Sabz Burj",
+      //   url: "/sabz-burj",
+      //   distance: "20 mts",
+      // },
+      // {
+      //   title: "Sunder Burj",
+      //   url: "/sunderburj",
+      //   distance: "20 mts",
+      // },
+    ],
+    desc: "Built in CE 1625, the Nila Gumbad is said to have been originally located on a river island on the river Yamuna which has since shifted course. The name derives from the blue tiles on its dome. This is one of the earliest Mughal-era structure in Delhi with Central Asian influence on the architecture pronounced by the tilework on the northern facade, the irregular octagonal plan, the profile of the arches and domes as well as the unique plaster patterns depicting brickwork—serving as a reminder of the principal building material in central Asia. That the Nila Gumbad predates Humayun’s Tomb is evident from the manner in which its western wall was incorporated within the Humayun’s Tomb eastern enclosure.",
+  },
 ];
 
 export const getMonumentsByName = (url) =>
