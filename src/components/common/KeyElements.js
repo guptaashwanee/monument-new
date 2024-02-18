@@ -8,7 +8,9 @@ const KeyElements = ({ data, id }) => {
             key={detail + index}
             className="col-12 col-sm-6 col-md-4 p-2 my-1"
           >
-            <h5>{detail.title}</h5>
+            <h5>
+              <b>{detail.title}</b>
+            </h5>
             {detail.images.map((img, index) => (
               <img className="my-3" key={index} src={img} alt={""} />
             ))}
