@@ -1271,6 +1271,7 @@ export const monuments = [
           "/assets/monuments/ishakhangardentomb/ishakhangardentomb_history_01.webp",
           "/assets/monuments/ishakhangardentomb/ishakhangardentomb_history_02.webp",
           "/assets/monuments/ishakhangardentomb/ishakhangardentomb_history_03.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_history_04.webp",
         ],
         desc: [
           "“This tomb, which is an asylum of paradise, was built during the reign of Islam Shah, son of Sher Shah, may God perpetuate his kingdom and sovereignty, in the year 954 AH.” -	Inscription translation from Zafar Hassan",
@@ -1285,6 +1286,25 @@ export const monuments = [
           "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_01.webp",
           "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_02.webp",
           "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_03.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_04.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_05.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_06.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_07.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_08.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_09.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_10.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_11.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_12.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_13.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_14.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_15.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_16.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_17.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_18.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_19.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_20.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_21.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_architecture_22.webp",
         ],
         desc: [
           "The Isa Khan’s Tomb is the culmination of two centuries of an architectural style of tomb building in the city of Delhi. Resembling more closely to the early 15th - century tomb of Mubarak Shah Sayyid but significantly more ornamental with the use of dressed sandstone for the façade of the mosque, elaborate finials, large scale use of ceramic tiles on the façade of the tomb, mosque and on the canopies and the highly ornamental plasterwork.",
@@ -1298,6 +1318,14 @@ export const monuments = [
           "/assets/monuments/ishakhangardentomb/ishakhangardentomb_conservation_02.webp",
           "/assets/monuments/ishakhangardentomb/ishakhangardentomb_conservation_03.webp",
           "/assets/monuments/ishakhangardentomb/ishakhangardentomb_conservation_04.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_conservation_05.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_conservation_06.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_conservation_07.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_conservation_08.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_conservation_09.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_conservation_10.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_conservation_11.webp",
+          "/assets/monuments/ishakhangardentomb/ishakhangardentomb_conservation_12.webp",
         ],
         desc: [
           "Conservation works here focus on restoring the ornamentation where evidence of original details is known. The discovery that the outer garden was originally 4’ below the levels of the garden that surrounds the tomb required 125,000 cubic feet of earth to be manually removed to restore historic levels. This revealed several hundred terracotta objects, in addition to architectural elements, as well as the arcade of the enclosure wall, which is now once again visible as intended. In order to ensure no damage to underlying archaeology occurs this work was carried out manually.",
@@ -1321,14 +1349,6 @@ export const monuments = [
           [
             "/assets/monuments/ishakhangardentomb/ishakhangardentomb_before_04.webp",
             "/assets/monuments/ishakhangardentomb/ishakhangardentomb_after_04.webp",
-          ],
-          [
-            "/assets/monuments/ishakhangardentomb/ishakhangardentomb_before_05.webp",
-            "/assets/monuments/ishakhangardentomb/ishakhangardentomb_after_05.webp",
-          ],
-          [
-            "/assets/monuments/ishakhangardentomb/ishakhangardentomb_before_06.webp",
-            "/assets/monuments/ishakhangardentomb/ishakhangardentomb_after_06.webp",
           ],
         ],
       },
@@ -1406,7 +1426,6 @@ export const monuments = [
         images: [
           "/assets/monuments/nilagumbad/nilagumbad_history_01.webp",
           "/assets/monuments/nilagumbad/nilagumbad_history_02.webp",
-          "/assets/monuments/nilagumbad/nilagumbad_history_03.webp",
         ],
         desc: [
           "Built on a rocky river island in the mid-19th century, the eastern half of Nila Gumbad’s garden was taken over to lay railway lines. The principal southern gateway to the garden enclosure seems to have been demolished for the construction of the railway station. In the late 1970s or early 1980s, the northern arcade of the garden enclosure were partially demolished to lay a trunk sewerage line and the area so levelled later came to be used as a road, thus separating Nila Gumbad and Humayun’s Tomb. A densely populated squatter settlement grew around Nila Gumbad.",
@@ -1420,6 +1439,9 @@ export const monuments = [
           "/assets/monuments/nilagumbad/nilagumbad_architecture_01.webp",
           "/assets/monuments/nilagumbad/nilagumbad_architecture_02.webp",
           "/assets/monuments/nilagumbad/nilagumbad_architecture_03.webp",
+          "/assets/monuments/nilagumbad/nilagumbad_architecture_04.webp",
+          "/assets/monuments/nilagumbad/nilagumbad_architecture_05.webp",
+          "/assets/monuments/nilagumbad/nilagumbad_architecture_06.webp",
         ],
         desc: [
           "The tomb stands on a platform 108’ square and 5’ high. The building itself is octagonal externally, with four narrow and four wider faces, and is square within. The wider faces are broken by pointed arched recesses enclosing a doorway, while slightly above is placed a small arched window. The drum on which the dome stands is encircled with a series of low arches. The dome exteriorly, as well as the facades, was originally profusely ornamented with enamelled tiles, portions of which are still preserved. The ceiling of the dome, and the walls inside, are decorated with painted and incised plaster. The dome construction is interesting as it is unusual in this period for the dome, as viewed from the interior, to rise through the high necking. In such cases there is usually a separate inner and outer dome with a space left between them. Here there is only the one dome shell.",
@@ -1433,6 +1455,12 @@ export const monuments = [
           "/assets/monuments/nilagumbad/nilagumbad_conservation_02.webp",
           "/assets/monuments/nilagumbad/nilagumbad_conservation_03.webp",
           "/assets/monuments/nilagumbad/nilagumbad_conservation_04.webp",
+          "/assets/monuments/nilagumbad/nilagumbad_conservation_05.webp",
+          "/assets/monuments/nilagumbad/nilagumbad_conservation_06.webp",
+          "/assets/monuments/nilagumbad/nilagumbad_conservation_07.webp",
+          "/assets/monuments/nilagumbad/nilagumbad_conservation_08.webp",
+          "/assets/monuments/nilagumbad/nilagumbad_conservation_09.webp",
+          "/assets/monuments/nilagumbad/nilagumbad_conservation_10.webp",
         ],
         desc: [
           "The conservation of Nila Gumbad has required not only the removal of cement layers and replacing them with traditional lime mortar but also restoring over 20,000 tiles missing from the dome. The layers of lime-wash and paint were removed, and sandstone screens restored to the grooves found in the arched openings in the neck of the dome.",
@@ -1464,6 +1492,30 @@ export const monuments = [
           [
             "/assets/monuments/nilagumbad/nilagumbad_before_06.webp",
             "/assets/monuments/nilagumbad/nilagumbad_after_06.webp",
+          ],
+          [
+            "/assets/monuments/nilagumbad/nilagumbad_before_07.webp",
+            "/assets/monuments/nilagumbad/nilagumbad_after_07.webp",
+          ],
+          [
+            "/assets/monuments/nilagumbad/nilagumbad_before_08.webp",
+            "/assets/monuments/nilagumbad/nilagumbad_after_08.webp",
+          ],
+          [
+            "/assets/monuments/nilagumbad/nilagumbad_before_09.webp",
+            "/assets/monuments/nilagumbad/nilagumbad_after_09.webp",
+          ],
+          [
+            "/assets/monuments/nilagumbad/nilagumbad_before_10.webp",
+            "/assets/monuments/nilagumbad/nilagumbad_after_10.webp",
+          ],
+          [
+            "/assets/monuments/nilagumbad/nilagumbad_before_11.webp",
+            "/assets/monuments/nilagumbad/nilagumbad_after_11.webp",
+          ],
+          [
+            "/assets/monuments/nilagumbad/nilagumbad_before_12.webp",
+            "/assets/monuments/nilagumbad/nilagumbad_after_12.webp",
           ],
         ],
       },
