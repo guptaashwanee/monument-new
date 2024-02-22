@@ -50,10 +50,16 @@ const Conservation = ({ data, id }) => {
         <motion.p
           margin={200}
           initial={{ opacity: 0, y: 75 }}
-          transition={{ duration: 0.25, delay: (index + 1) * 0.1 }}
+          transition={{
+            type: "spring",
+            stiffness: 100,
+            easings: "easeIn",
+            duration: 1,
+            // delay: (index + 1) * 0.1,
+          }}
           whileInView={{ opacity: 1, y: 0 }}
           key={index}
-          viewport={{ amount: 0.2, once: true }}
+          viewport={{ amount: 0.75 }}
         >
           {desc}
         </motion.p>

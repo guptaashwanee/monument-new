@@ -8,7 +8,7 @@ const History = ({ data, id }) => {
         {data.images.map((img, index) => (
           <motion.div
             initial={{ opacity: 0, y: 50, scale: 0.5 }}
-            transition={{ duration: 0.25, delay: (index + 1) * 0.25 }}
+            transition={{ duration: 0.5, delay: (index + 1) * 0.25 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             key={img + index}
             viewport={{ once: true }}
@@ -22,10 +22,16 @@ const History = ({ data, id }) => {
         {data.desc.map((desc, index) => (
           <motion.p
             initial={{ opacity: 0, y: 75 }}
-            transition={{ duration: 0.25, delay: (index + 1) * 0.1 }}
+            transition={{
+              type: "spring",
+              stiffness: 100,
+              easings: "easeIn",
+              duration: 1,
+              // delay: (index + 1) * 0.1,
+            }}
             whileInView={{ opacity: 1, y: 0 }}
             key={index}
-            viewport={{ amount: 0.2, once: true }}
+            viewport={{ amount: 0.75 }}
           >
             {desc}
           </motion.p>

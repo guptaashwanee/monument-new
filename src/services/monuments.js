@@ -3,18 +3,22 @@ export const monuments = [
     id: 1,
     title: "Chausath khamba",
     time: "CE 1623-24",
-    preview: "/assets/monuments/chausathkhamba/chausathkhamba_hero.jpeg",
+    preview: "/assets/monuments/chausathkhamba/chausathkhamba_hero.webp",
 
     url: "/chausathkhamba",
     iframe:
-      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2348.3023697717085!2d77.2441841824983!3d28.596159334613034!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce30046cf4a35%3A0x94d5134ce745fba5!2sSunderwala%20Burj!5e0!3m2!1sen!2sin!4v1690828477026!5m2!1sen!2sin",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.2847245490643!2d77.24301659999999!3d28.591234000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce302d3634d53%3A0xe187a5ea84c9e316!2sChausath%20Khamba%20nizamuddin%20new%20delhi!5e0!3m2!1sen!2sin!4v1708598496369!5m2!1sen!2sin",
     tabDetails: [
       {
         id: "history",
         title: "History",
         images: [
-          "/assets/monuments/chausathkhamba/chausathkhamba_history_01.jpeg",
-          "/assets/monuments/chausathkhamba/chausathkhamba_history_02.jpeg",
+          "/assets/monuments/chausathkhamba/chausathkhamba_history_01.webp",
+          "/assets/monuments/chausathkhamba/chausathkhamba_history_02.webp",
+          "/assets/monuments/chausathkhamba/chausathkhamba_history_03.webp",
+          "/assets/monuments/chausathkhamba/chausathkhamba_history_04.webp",
+          "/assets/monuments/chausathkhamba/chausathkhamba_history_05.webp",
+          "/assets/monuments/chausathkhamba/chausathkhamba_history_06.webp",
         ],
         desc: [
           "Mirza Aziz Koka was the son of Atgah Khan, an important noble in Akbar’s court, and the emperor’s wet nurse Jiji Anga. He was also known by the name Kokaltash, meaning foster brother. His mausoleum is built close to that of his father, Atgah Khan, abutting Hazrat Nizamuddin Auliya’s Dargah.",
@@ -26,11 +30,13 @@ export const monuments = [
         id: "architecture",
         title: "Architecture",
         images: [
-          "/assets/monuments/chausathkhamba/chausathkhamba_architecture_01.jpeg",
-          "/assets/monuments/chausathkhamba/chausathkhamba_architecture_02.jpeg",
-          "/assets/monuments/chausathkhamba/chausathkhamba_architecture_03.jpeg",
-          "/assets/monuments/chausathkhamba/chausathkhamba_architecture_04.jpeg",
-          "/assets/monuments/chausathkhamba/chausathkhamba_architecture_05.jpeg",
+          "/assets/monuments/chausathkhamba/chausathkhamba_architecture_01.webp",
+          "/assets/monuments/chausathkhamba/chausathkhamba_architecture_02.webp",
+          "/assets/monuments/chausathkhamba/chausathkhamba_architecture_03.webp",
+          "/assets/monuments/chausathkhamba/chausathkhamba_architecture_04.webp",
+          "/assets/monuments/chausathkhamba/chausathkhamba_architecture_05.webp",
+          "/assets/monuments/chausathkhamba/chausathkhamba_architecture_06.webp",
+          "/assets/monuments/chausathkhamba/chausathkhamba_architecture_07.webp",
         ],
         desc: [
           "The monument is named for its 64 marble pillars that support 25 domed chambers (‘chausath’ being the Hindi word for 64, and ‘khamba’, the word for pillar). Its design seems rooted in Persia’s wooden garden pavilions such as the Chihil Sutun, and in turn, appears to have inspired the architecture of Shahjahan’s Diwan-i-Aam, or Hall of Audience.",
@@ -44,11 +50,15 @@ export const monuments = [
         id: "conservation",
         title: "Conservation",
         images: [
-          "/assets/monuments/chausathkhamba/chausathkhamba_conservation_01.jpeg",
-          "/assets/monuments/chausathkhamba/chausathkhamba_conservation_02.jpeg",
-          "/assets/monuments/chausathkhamba/chausathkhamba_conservation_03.jpeg",
-          "/assets/monuments/chausathkhamba/chausathkhamba_conservation_04.jpeg",
-          "/assets/monuments/chausathkhamba/chausathkhamba_conservation_05.jpeg",
+          "/assets/monuments/chausathkhamba/chausathkhamba_conservation_01.webp",
+          "/assets/monuments/chausathkhamba/chausathkhamba_conservation_02.webp",
+          "/assets/monuments/chausathkhamba/chausathkhamba_conservation_03.webp",
+          "/assets/monuments/chausathkhamba/chausathkhamba_conservation_04.webp",
+          "/assets/monuments/chausathkhamba/chausathkhamba_conservation_05.webp",
+          "/assets/monuments/chausathkhamba/chausathkhamba_conservation_06.webp",
+          "/assets/monuments/chausathkhamba/chausathkhamba_conservation_07.webp",
+          "/assets/monuments/chausathkhamba/chausathkhamba_conservation_08.webp",
+          "/assets/monuments/chausathkhamba/chausathkhamba_conservation_09.webp",
         ],
         desc: [
           "Chausath Khamba’s conservation was undertaken in 2011 by the Aga Khan Trust for Culture (AKTC) in partnership with the Archaeological Survey of India (ASI), with co-funding from thes Federal Republic of Germany, New Delhi.",
@@ -58,12 +68,16 @@ export const monuments = [
         ],
         beforeAfter: [
           [
-            "/assets/monuments/chausathkhamba/chausathkhamba_before_01.jpeg",
-            "/assets/monuments/chausathkhamba/chausathkhamba_after_01.jpeg",
+            "/assets/monuments/chausathkhamba/chausathkhamba_before_01.webp",
+            "/assets/monuments/chausathkhamba/chausathkhamba_after_01.webp",
           ],
           [
-            "/assets/monuments/chausathkhamba/chausathkhamba_before_02.jpeg",
-            "/assets/monuments/chausathkhamba/chausathkhamba_after_02.jpeg",
+            "/assets/monuments/chausathkhamba/chausathkhamba_before_02.webp",
+            "/assets/monuments/chausathkhamba/chausathkhamba_after_02.webp",
+          ],
+          [
+            "/assets/monuments/chausathkhamba/chausathkhamba_before_03.webp",
+            "/assets/monuments/chausathkhamba/chausathkhamba_after_03.webp",
           ],
         ],
       },
@@ -76,9 +90,7 @@ export const monuments = [
             desc: [
               "The masonry above the domes had cracks running up to a metre deep and 4 inches wide through which water was seeping into the building. These were filled and repaired. The terrace was lined with a 230-mm thick layer of cement concrete and through pressure grouting, the cracks in the roof were repaired without disturbing the structure below. A layer of lime concrete, with natural and traditional additives like jaggery and bael fruit pulp (belgiri), was laid while maintaining the original slope levels, and the clogged water spouts cleared.",
             ],
-            images: [
-              "/assets/monuments/chausathkhamba/chausathkhamba_keyelements_01.jpeg",
-            ],
+            images: [],
           },
           {
             title: "Domes",
@@ -86,47 +98,33 @@ export const monuments = [
               "After dismantling the domes, the marble and masonry were repaired extensively. It took almost four years and three teams of stone craftsmen to repair and put back the domes in their original position.",
               "The engineers, craftspeople, and conservation architects could only access the iron dowels from below as the documentation had revealed masonry more than a metre thick above the domes. Once a specially designed support framework was built, the keystone was held in place and rings of marble blocks were dismantled and carefully reassembled on the floor. The dowels were manually removed and stone indents were prepared for corners that had burst. Each stone weighed 200-350 kg and it took four or five people to move them.",
             ],
-            images: [
-              "/assets/monuments/chausathkhamba/chausathkhamba_keyelements_01.jpeg",
-            ],
+            images: [],
           },
           {
             title: "Facades",
             desc: [
               "All four façades of the mausoleum have five marble arches inset with delicate jaalis. The light that filters in through these screens creates patterns of various hues and shapes.",
             ],
-            images: [
-              "/assets/monuments/chausathkhamba/chausathkhamba_keyelements_01.jpeg",
-            ],
+            images: [],
           },
         ],
       },
     ],
     nearBy: [
       {
-        title: "Sunder Burj",
-        url: "/sunderburj",
-        distance: "10 Kms",
+        title: "SABZ BURJ",
+        url: "/sabzburj",
+        distance: "400 mts",
       },
+      // {
+      //   title: "Rahim Tomb",
+      //   url: "/rahimtomb",
+      //   distance: "1 Kms",
+      // },
       {
-        title: "Barber's Tomb",
-        url: "/lakkarwalaburj",
-        distance: "2 Kms",
-      },
-      {
-        title: "Mirza Muzaffar Hussain’s Mausoleum",
-        url: "/mirzamuzaffar",
-        distance: "1.5 Kms",
-      },
-      {
-        title: "Chhota Batashewala",
-        url: "/chotabatashewala",
-        distance: "",
-      },
-      {
-        title: "Mughal Mausoleum",
-        url: "/mughalmausoleum",
-        distance: "",
+        title: "Isa Khan’s Garden-tomb",
+        url: "/ishakhangardentomb",
+        distance: "600 mts",
       },
     ],
     desc: "This white marble mausoleum for Mughal Emperor Akbar’s foster brother Mirza Aziz Koka, adjoining the tomb of Mirza Ghalib, is one of the most striking monuments in the Nizamuddin Basti.",
@@ -512,6 +510,10 @@ export const monuments = [
         images: [
           "/assets/monuments/mirzamuzaffar/mirzamuzaffar_architecture_01.webp",
           "/assets/monuments/mirzamuzaffar/mirzamuzaffar_architecture_02.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_architecture_03.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_architecture_04.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_architecture_05.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_architecture_06.webp",
         ],
         desc: [
           "In appearance, Mirza Muzaffar Hussain’s mausoleum resembles the Sundarwala Mahal situated in Sunder Nursery. This square structure stands on a raised platform and measures 96 feet on each side, with five arches on each side. Although it is known that the building is a mausoleum, but the actual grave has disappeared. It was originally surrounded by a walled enclosure, of which traces can still be seen.",
@@ -523,6 +525,27 @@ export const monuments = [
         images: [
           "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_01.webp",
           "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_02.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_03.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_04.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_05.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_06.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_07.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_08.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_09.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_10.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_11.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_12.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_13.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_14.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_15.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_16.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_17.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_18.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_19.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_20.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_21.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_22.webp",
+          "/assets/monuments/mirzamuzaffar/mirzamuzaffar_conservation_23.webp",
         ],
         desc: [
           "The mausoleum, which was almost lost to neglect and decay, has been renewed and preserved for generations to come through a restoration project that resulted in its inclusion as part of a UNESCO World Heritage site. In the 1950s, the ownership of this complex was given to the Bharat Scouts & Guides to serve as a camping ground. This led, in 1989, to the construction of 150 structures. Enclosure walls were demolished, disfiguring the landscape and the historic character of the site.",
@@ -544,6 +567,34 @@ export const monuments = [
           [
             "/assets/monuments/mirzamuzaffar/mirzamuzaffar_before_02.webp",
             "/assets/monuments/mirzamuzaffar/mirzamuzaffar_after_02.webp",
+          ],
+          [
+            "/assets/monuments/mirzamuzaffar/mirzamuzaffar_before_03.webp",
+            "/assets/monuments/mirzamuzaffar/mirzamuzaffar_after_03.webp",
+          ],
+          [
+            "/assets/monuments/mirzamuzaffar/mirzamuzaffar_before_04.webp",
+            "/assets/monuments/mirzamuzaffar/mirzamuzaffar_after_04.webp",
+          ],
+          [
+            "/assets/monuments/mirzamuzaffar/mirzamuzaffar_before_05.webp",
+            "/assets/monuments/mirzamuzaffar/mirzamuzaffar_after_05.webp",
+          ],
+          [
+            "/assets/monuments/mirzamuzaffar/mirzamuzaffar_before_06.webp",
+            "/assets/monuments/mirzamuzaffar/mirzamuzaffar_after_06.webp",
+          ],
+          [
+            "/assets/monuments/mirzamuzaffar/mirzamuzaffar_before_07.webp",
+            "/assets/monuments/mirzamuzaffar/mirzamuzaffar_after_07.webp",
+          ],
+          [
+            "/assets/monuments/mirzamuzaffar/mirzamuzaffar_before_08.webp",
+            "/assets/monuments/mirzamuzaffar/mirzamuzaffar_after_08.webp",
+          ],
+          [
+            "/assets/monuments/mirzamuzaffar/mirzamuzaffar_before_09.webp",
+            "/assets/monuments/mirzamuzaffar/mirzamuzaffar_after_09.webp",
           ],
         ],
       },
@@ -735,6 +786,8 @@ export const monuments = [
         images: [
           "/assets/monuments/mughalmausoleum/mughalmausoleum_architecture_01.webp",
           "/assets/monuments/mughalmausoleum/mughalmausoleum_architecture_02.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_architecture_03.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_architecture_04.webp",
         ],
         desc: [
           "It stands on a platform within a recently reconstructed walled enclosure. The incised-plaster ornamentation on its façade and interior still retains the original polychrome in bright hues of blue, green, and red. The structure features traditional squinch arches and walls with calligraphic inscriptions of Quranic verses. The roof parapets are adorned with minarets and decorative motifs. Its principal entrance was from the south, where a grand flight of steps still survives.",
@@ -748,6 +801,25 @@ export const monuments = [
           "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_01.webp",
           "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_02.webp",
           "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_03.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_04.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_05.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_06.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_07.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_08.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_09.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_10.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_11.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_12.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_13.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_14.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_15.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_16.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_17.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_18.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_19.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_20.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_21.webp",
+          "/assets/monuments/mughalmausoleum/mughalmausoleum_conservation_22.webp",
         ],
         desc: [
           "The structure had suffered from inappropriate repairs in the 20th century. Careful interventions were required to restore the architectural intentions of the Mughal builders, including rebuilding the lower platform and replacing the cement plaster, which had beenused here extensively, with lime plaster. This also included restoring the intricate plasterwork on the parapet, interiors, and façade. The sandstone lattice screens openings have been restored using Mirza Muzaffar Hussain’s tomb as a model.",
@@ -766,6 +838,26 @@ export const monuments = [
           [
             "/assets/monuments/mughalmausoleum/mughalmausoleum_before_03.webp",
             "/assets/monuments/mughalmausoleum/mughalmausoleum_after_03.webp",
+          ],
+          [
+            "/assets/monuments/mughalmausoleum/mughalmausoleum_before_04.webp",
+            "/assets/monuments/mughalmausoleum/mughalmausoleum_after_04.webp",
+          ],
+          [
+            "/assets/monuments/mughalmausoleum/mughalmausoleum_before_05.webp",
+            "/assets/monuments/mughalmausoleum/mughalmausoleum_after_05.webp",
+          ],
+          [
+            "/assets/monuments/mughalmausoleum/mughalmausoleum_before_06.webp",
+            "/assets/monuments/mughalmausoleum/mughalmausoleum_after_06.webp",
+          ],
+          [
+            "/assets/monuments/mughalmausoleum/mughalmausoleum_before_07.webp",
+            "/assets/monuments/mughalmausoleum/mughalmausoleum_after_07.webp",
+          ],
+          [
+            "/assets/monuments/mughalmausoleum/mughalmausoleum_before_08.webp",
+            "/assets/monuments/mughalmausoleum/mughalmausoleum_after_08.webp",
           ],
         ],
       },
@@ -975,24 +1067,14 @@ export const monuments = [
     ],
     nearBy: [
       {
-        title: "Nila Gumbad",
-        url: "/nila-gumbad",
-        distance: "20 mts",
+        title: "Isa Khan’s Garden-tomb",
+        url: "/ishakhangardentomb",
+        distance: "350 mts",
       },
       {
-        title: "Barber's Tomb",
-        url: "/barbers-tomb",
-        distance: "10 mts",
-      },
-      {
-        title: "Sabz Burj",
-        url: "/sabz-burj",
-        distance: "20 mts",
-      },
-      {
-        title: "Sunder Burj",
-        url: "/sunderburj",
-        distance: "20 mts",
+        title: "Chausath khamba",
+        url: "/chausathkhamba",
+        distance: "400 mts",
       },
     ],
     desc: "Built in the 1530’s, Sabz Burj is one the earliest Mughal era buildings in India. The structure stands at a prominent location on the historic Grand Trunk Road and within the Humayun’s Tomb - Nizamuddin Basti Heritage zone. Built as a mausoleum, Sabz Burj would also have stood within an enclosed garden. The dome was re-clad with tiles in the 1980’s and since then Sabz Burj had suffered from water seepage, loss of incised plaster patterns and tiles from the drum, as well as severe structural deterioration. Conservation works here have revealed intricate, complex ornamentation and even the use of gold, indicating the stature of the person buried here.",
@@ -1232,24 +1314,14 @@ export const monuments = [
     ],
     nearBy: [
       {
-        title: "Nila Gumbad",
-        url: "/nila-gumbad",
-        distance: "20 mts",
+        title: "SABZ BURJ",
+        url: "/sabzburj",
+        distance: "1.0 Km",
       },
       {
-        title: "Barber's Tomb",
-        url: "/barbers-tomb",
-        distance: "10 mts",
-      },
-      {
-        title: "Sabz Burj",
-        url: "/sabz-burj",
-        distance: "20 mts",
-      },
-      {
-        title: "Sunder Burj",
-        url: "/sunderburj",
-        distance: "20 mts",
+        title: "Chausath khamba",
+        url: "/chausathkhamba",
+        distance: "1.0 Km",
       },
     ],
     desc: "Standing only a few hundred yards south of Humayun’s Tomb, this monumental tomb was built by Abdur Rahim Khan-I-Khanan for his wife – MahBanu. Built in CE 1598 this would be the first monumental tomb built for a lady in Mughal times and, on his death, Rahim was also buried here alongside his wife. It also stands within the sacred landscape associated with the Dargah of Hazrat Nizamuddin Auliya, the revered 14th century Sufi saint. Today, with over 60 important monuments standing here, this is a significant archaeological zone and a buffer zone of the Humayun’s Tomb World Heritage Site.",
@@ -1390,23 +1462,8 @@ export const monuments = [
     nearBy: [
       {
         title: "Nila Gumbad",
-        url: "/nila-gumbad",
-        distance: "20 mts",
-      },
-      {
-        title: "Barber's Tomb",
-        url: "/barbers-tomb",
-        distance: "10 mts",
-      },
-      {
-        title: "Sabz Burj",
-        url: "/sabz-burj",
-        distance: "20 mts",
-      },
-      {
-        title: "Sunder Burj",
-        url: "/sunderburj",
-        distance: "20 mts",
+        url: "/nilagumbad",
+        distance: "1.2 Km",
       },
     ],
     desc: "Predating the Humayun’s Tomb by only two decades, this complex survives in its entirety—enclosure walls, gateway, mosque and even the original well. The octagonal tomb is of an architectural style used by the Sayyid and Lodi dynasties for royal mausoleums. It stands prominently on the entrance to the Humayun’s Tomb complex.",
@@ -1541,26 +1598,11 @@ export const monuments = [
       },
     ],
     nearBy: [
-      // {
-      //   title: "Nila Gumbad",
-      //   url: "/nila-gumbad",
-      //   distance: "20 mts",
-      // },
-      // {
-      //   title: "Barber's Tomb",
-      //   url: "/barbers-tomb",
-      //   distance: "10 mts",
-      // },
-      // {
-      //   title: "Sabz Burj",
-      //   url: "/sabz-burj",
-      //   distance: "20 mts",
-      // },
-      // {
-      //   title: "Sunder Burj",
-      //   url: "/sunderburj",
-      //   distance: "20 mts",
-      // },
+      {
+        title: "Isa Khan’s Garden-tomb",
+        url: "/ishakhangardentomb",
+        distance: "1.2 Km",
+      },
     ],
     desc: "Built in CE 1625, the Nila Gumbad is said to have been originally located on a river island on the river Yamuna which has since shifted course. The name derives from the blue tiles on its dome. This is one of the earliest Mughal-era structure in Delhi with Central Asian influence on the architecture pronounced by the tilework on the northern facade, the irregular octagonal plan, the profile of the arches and domes as well as the unique plaster patterns depicting brickwork—serving as a reminder of the principal building material in central Asia. That the Nila Gumbad predates Humayun’s Tomb is evident from the manner in which its western wall was incorporated within the Humayun’s Tomb eastern enclosure.",
   },

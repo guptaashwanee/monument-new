@@ -14,13 +14,18 @@ const NearByMonuments = ({ monument }) => {
                 x: -200,
                 scale: 0.5,
               }}
-              transition={{ duration: 0.2, delay: (index + 1) * 0.15 }}
+              transition={{
+                type: "spring",
+                stiffness: 100,
+                easings: "easeIn",
+                duration: 1,
+                delay: (index + 1) * 0.15,
+              }}
               whileInView={{
                 opacity: 1,
                 x: 0,
                 scale: 1,
               }}
-              viewport={{ once: true }}
               key={index}
               className="col-12 col-md-6"
             >
